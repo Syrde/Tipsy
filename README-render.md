@@ -1,5 +1,14 @@
 # Tipsy Drunken Visa Renderiin
 
+## Käytössä oleva verkkopalvelu
+
+- Peli: https://tipsy-drunken-visa.onrender.com
+- Render-palvelu: https://dashboard.render.com/web/srv-db4c7860tbcc73dt6hng
+- Supabase-projekti: `yxlcxfckmszddnjpalte`
+- Ensimmäinen julkaisu onnistui 9.10.2026 (Free). Terveystarkistus palautti `status: ok` ja `roomStorage: supabase`.
+- Julkinen liittymisosoite tarkistettiin. Selaimella luotu tyhjä pelihuone tallentui Supabasen `tipzy_rooms`-tauluun.
+- Salainen Supabase-avain on vain Renderin ympäristöasetuksessa.
+
 ## Valmisteltu
 
 - `render.yaml`: Node-palvelin, Free, Frankfurt, `npm ci --omit=dev`, `npm start`.
@@ -19,7 +28,7 @@
 
 ## Ennen juhlakäyttöä vielä tehtävä
 
-Tallennuksen koodi ja SQL ovat valmisteltu. Oikeaa Supabase-yhteyttä, palautumista ja Renderin kuormitusta ei ole vielä tarkistettu. Verkkoversio ei ole juhlakäyttöön vahvistettu ennen näitä tarkistuksia.
+Supabase-yhteys ja pelihuoneen tallentuminen on tarkistettu ensimmäisessä verkkojulkaisussa. Palvelimen uudelleenkäynnistyksestä palautumista ja Renderin kuormitusta ei ole vielä tarkistettu. Verkkoversio ei ole juhlakäyttöön vahvistettu ennen näitä tarkistuksia.
 
 - `quiz-room-store.mjs` tallentaa Supabaseen kysymysjärjestyksen, lukitut vastaukset, pisteytysvaiheen, hörpyt ja pelaajien paluutunnisteet. Palautettu peli jää tauolle. Versiotarkistus estää vanhaa palvelinta kirjoittamasta uudemman tilan päälle, ja saman tallennuspyynnön voi toistaa turvallisesti aikakatkon jälkeen.
 - Vastaukset julkaistaan vasta tallennuksen jälkeen. Tallennusyhteyden katketessa peli pysähtyy, näyttää ilmoituksen ja yrittää palauttaa yhteyden. Järjestäjä jatkaa peliä käsin yhteyden palauduttua.
