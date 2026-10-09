@@ -1,0 +1,15 @@
+node_modules/
+*.log
+.env
+.env.*
+!.env.example
+.DS_Store
+.venv/
+.venv-chatterbox/
+.local-tools/
+.tipzy-history.json
+audio-jobs.json
+tipsy-test.mp3
+public/audio/dynamic/
+
+public/audio/tipsy-original-dynamic/

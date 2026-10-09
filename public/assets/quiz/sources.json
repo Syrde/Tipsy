@@ -1,0 +1,26 @@
+[
+  {
+    "file": "starry.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+    "preview": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/960px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20260302172601",
+    "license": "Public domain artwork; faithful reproduction (PD-Art). See source licensing section."
+  },
+  {
+    "file": "pearl.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:1665_Girl_with_a_Pearl_Earring.jpg",
+    "preview": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/1665_Girl_with_a_Pearl_Earring.jpg/960px-1665_Girl_with_a_Pearl_Earring.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20170114124259",
+    "license": "Public domain artwork; faithful reproduction (PD-Art). See source licensing section."
+  },
+  {
+    "file": "venus.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project.jpg",
+    "preview": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project.jpg/960px-Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20121101231931",
+    "license": "Public domain artwork; faithful reproduction (PD-Art). See source licensing section."
+  },
+  {
+    "file": "scream.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Scream.jpg",
+    "preview": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/The_Scream.jpg/500px-The_Scream.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20160501101333",
+    "license": "Public domain artwork; faithful reproduction (PD-Art). See source licensing section."
+  }
+]

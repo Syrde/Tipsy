@@ -1,0 +1,22 @@
+# Run supabase/001-room-checkpoints.sql before the first deployment.
+services:
+  - type: web
+    name: tipsy-drunken-visa
+    runtime: node
+    plan: free
+    region: frankfurt
+    buildCommand: npm ci --omit=dev
+    startCommand: npm start
+    healthCheckPath: /api/health
+    autoDeployTrigger: off
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: TIPZY_OFFLINE_AUDIO
+        value: "1"
+      - key: TIPZY_REQUIRE_PERSISTENCE
+        value: "1"
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_SECRET_KEY
+        sync: false

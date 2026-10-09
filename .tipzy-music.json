@@ -1,0 +1,1676 @@
+[
+  {
+    "family": "recording-625643",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 625643,
+    "sourceUrl": "https://www.deezer.com/track/625643",
+    "audioUrl": "/api/music-preview?id=music-625643-title",
+    "excerptSeconds": 15,
+    "id": "music-625643-title",
+    "prompt": "Mikä on tämän kappaleen nimi?",
+    "options": [
+      "Don't Stop Believin'",
+      "Bohemian Rhapsody",
+      "Dancing Queen",
+      "Africa"
+    ],
+    "explanation": "Don't Stop Believin' — Journey."
+  },
+  {
+    "family": "recording-625643",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 625643,
+    "sourceUrl": "https://www.deezer.com/track/625643",
+    "audioUrl": "/api/music-preview?id=music-625643-artist",
+    "excerptSeconds": 15,
+    "id": "music-625643-artist",
+    "prompt": "Mikä yhtye esittää tämän kappaleen?",
+    "options": [
+      "Journey",
+      "Toto",
+      "REO Speedwagon",
+      "Foreigner"
+    ],
+    "explanation": "Don't Stop Believin': Journey."
+  },
+  {
+    "family": "recording-625643",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 625643,
+    "sourceUrl": "https://www.deezer.com/track/625643",
+    "audioUrl": "/api/music-preview?id=music-625643-context",
+    "excerptSeconds": 15,
+    "id": "music-625643-context",
+    "prompt": "Minkä sarjan kuuluisassa viimeisessä kohtauksessa tämä kappale soi?",
+    "options": [
+      "The Sopranos",
+      "Breaking Bad",
+      "The Wire",
+      "Mad Men"
+    ],
+    "explanation": "Don't Stop Believin': The Sopranos."
+  },
+  {
+    "family": "recording-4091937401",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 4091937401,
+    "sourceUrl": "https://www.deezer.com/track/4091937401",
+    "audioUrl": "/api/music-preview?id=music-4091937401-title",
+    "excerptSeconds": 15,
+    "id": "music-4091937401-title",
+    "prompt": "Mikä on tämän kappaleen nimi?",
+    "options": [
+      "Bohemian Rhapsody",
+      "Livin’ on a Prayer",
+      "Wonderwall",
+      "Smells Like Teen Spirit"
+    ],
+    "explanation": "Bohemian Rhapsody — Queen."
+  },
+  {
+    "family": "recording-4091937401",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 4091937401,
+    "sourceUrl": "https://www.deezer.com/track/4091937401",
+    "audioUrl": "/api/music-preview?id=music-4091937401-artist",
+    "excerptSeconds": 15,
+    "id": "music-4091937401-artist",
+    "prompt": "Mikä yhtye esittää tämän kappaleen?",
+    "options": [
+      "Queen",
+      "David Bowie",
+      "Electric Light Orchestra",
+      "Elton John"
+    ],
+    "explanation": "Bohemian Rhapsody: Queen."
+  },
+  {
+    "family": "recording-884025",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 884025,
+    "sourceUrl": "https://www.deezer.com/track/884025",
+    "audioUrl": "/api/music-preview?id=music-884025-title",
+    "excerptSeconds": 15,
+    "id": "music-884025-title",
+    "prompt": "Mikä on tämän kappaleen nimi?",
+    "options": [
+      "Dancing Queen",
+      "Smells Like Teen Spirit",
+      "Mr. Brightside",
+      "Viva La Vida"
+    ],
+    "explanation": "Dancing Queen — ABBA."
+  },
+  {
+    "family": "recording-884025",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 884025,
+    "sourceUrl": "https://www.deezer.com/track/884025",
+    "audioUrl": "/api/music-preview?id=music-884025-artist",
+    "excerptSeconds": 15,
+    "id": "music-884025-artist",
+    "prompt": "Mikä yhtye esittää tämän kappaleen?",
+    "options": [
+      "ABBA",
+      "Boney M.",
+      "Bee Gees",
+      "Fleetwood Mac"
+    ],
+    "explanation": "Dancing Queen: ABBA."
+  },
+  {
+    "family": "recording-1079668",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 1079668,
+    "sourceUrl": "https://www.deezer.com/track/1079668",
+    "audioUrl": "/api/music-preview?id=music-1079668-title",
+    "excerptSeconds": 15,
+    "id": "music-1079668-title",
+    "prompt": "Mikä on tämän kappaleen nimi?",
+    "options": [
+      "Africa",
+      "Viva La Vida",
+      "In the End",
+      "The Final Countdown"
+    ],
+    "explanation": "Africa — Toto."
+  },
+  {
+    "family": "recording-1079668",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 1079668,
+    "sourceUrl": "https://www.deezer.com/track/1079668",
+    "audioUrl": "/api/music-preview?id=music-1079668-artist",
+    "excerptSeconds": 15,
+    "id": "music-1079668-artist",
+    "prompt": "Mikä yhtye esittää tämän kappaleen?",
+    "options": [
+      "Toto",
+      "Journey",
+      "Foreigner",
+      "Styx"
+    ],
+    "explanation": "Africa: Toto."
+  },
+  {
+    "family": "recording-538660022",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 538660022,
+    "sourceUrl": "https://www.deezer.com/track/538660022",
+    "audioUrl": "/api/music-preview?id=music-538660022-title",
+    "excerptSeconds": 15,
+    "id": "music-538660022-title",
+    "prompt": "Mikä on tämän kappaleen nimi?",
+    "options": [
+      "Livin’ on a Prayer",
+      "The Final Countdown",
+      "Take on Me",
+      "Billie Jean"
+    ],
+    "explanation": "Livin’ on a Prayer — Bon Jovi."
+  },
+  {
+    "family": "recording-538660022",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 538660022,
+    "sourceUrl": "https://www.deezer.com/track/538660022",
+    "audioUrl": "/api/music-preview?id=music-538660022-artist",
+    "excerptSeconds": 15,
+    "id": "music-538660022-artist",
+    "prompt": "Mikä yhtye esittää tämän kappaleen?",
+    "options": [
+      "Bon Jovi",
+      "Europe",
+      "Aerosmith",
+      "Def Leppard"
+    ],
+    "explanation": "Livin’ on a Prayer: Bon Jovi."
+  },
+  {
+    "family": "recording-985745702",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 985745702,
+    "sourceUrl": "https://www.deezer.com/track/985745702",
+    "audioUrl": "/api/music-preview?id=music-985745702-title",
+    "excerptSeconds": 15,
+    "id": "music-985745702-title",
+    "prompt": "Mikä on tämän kappaleen nimi?",
+    "options": [
+      "Wonderwall",
+      "Billie Jean",
+      "Like a Prayer",
+      "Rolling in the Deep"
+    ],
+    "explanation": "Wonderwall — Oasis."
+  },
+  {
+    "family": "recording-985745702",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 985745702,
+    "sourceUrl": "https://www.deezer.com/track/985745702",
+    "audioUrl": "/api/music-preview?id=music-985745702-artist",
+    "excerptSeconds": 15,
+    "id": "music-985745702-artist",
+    "prompt": "Mikä yhtye esittää tämän kappaleen?",
+    "options": [
+      "Oasis",
+      "Blur",
+      "The Verve",
+      "Radiohead"
+    ],
+    "explanation": "Wonderwall: Oasis."
+  },
+  {
+    "family": "recording-13791930",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 13791930,
+    "sourceUrl": "https://www.deezer.com/track/13791930",
+    "audioUrl": "/api/music-preview?id=music-13791930-title",
+    "excerptSeconds": 15,
+    "id": "music-13791930-title",
+    "prompt": "Mikä on tämän kappaleen nimi?",
+    "options": [
+      "Smells Like Teen Spirit",
+      "Rolling in the Deep",
+      "Blinding Lights",
+      "Poker Face"
+    ],
+    "explanation": "Smells Like Teen Spirit — Nirvana."
+  },
+  {
+    "family": "recording-13791930",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 13791930,
+    "sourceUrl": "https://www.deezer.com/track/13791930",
+    "audioUrl": "/api/music-preview?id=music-13791930-artist",
+    "excerptSeconds": 15,
+    "id": "music-13791930-artist",
+    "prompt": "Mikä yhtye esittää tämän kappaleen?",
+    "options": [
+      "Nirvana",
+      "Pearl Jam",
+      "Soundgarden",
+      "Alice in Chains"
+    ],
+    "explanation": "Smells Like Teen Spirit: Nirvana."
+  },
+  {
+    "family": "recording-953097",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 953097,
+    "sourceUrl": "https://www.deezer.com/track/953097",
+    "audioUrl": "/api/music-preview?id=music-953097-title",
+    "excerptSeconds": 15,
+    "id": "music-953097-title",
+    "prompt": "Mikä on tämän kappaleen nimi?",
+    "options": [
+      "Mr. Brightside",
+      "Poker Face",
+      "Toxic",
+      "Lose Yourself"
+    ],
+    "explanation": "Mr. Brightside — The Killers."
+  },
+  {
+    "family": "recording-953097",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 953097,
+    "sourceUrl": "https://www.deezer.com/track/953097",
+    "audioUrl": "/api/music-preview?id=music-953097-artist",
+    "excerptSeconds": 15,
+    "id": "music-953097-artist",
+    "prompt": "Mikä yhtye esittää tämän kappaleen?",
+    "options": [
+      "The Killers",
+      "The Strokes",
+      "Arctic Monkeys",
+      "Franz Ferdinand"
+    ],
+    "explanation": "Mr. Brightside: The Killers."
+  },
+  {
+    "family": "recording-3157972",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 3157972,
+    "sourceUrl": "https://www.deezer.com/track/3157972",
+    "audioUrl": "/api/music-preview?id=music-3157972-title",
+    "excerptSeconds": 15,
+    "id": "music-3157972-title",
+    "prompt": "Mikä on tämän kappaleen nimi?",
+    "options": [
+      "Viva La Vida",
+      "Lose Yourself",
+      "My Heart Will Go On",
+      "I Will Always Love You"
+    ],
+    "explanation": "Viva La Vida — Coldplay."
+  },
+  {
+    "family": "recording-3157972",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 3157972,
+    "sourceUrl": "https://www.deezer.com/track/3157972",
+    "audioUrl": "/api/music-preview?id=music-3157972-artist",
+    "excerptSeconds": 15,
+    "id": "music-3157972-artist",
+    "prompt": "Mikä yhtye esittää tämän kappaleen?",
+    "options": [
+      "Coldplay",
+      "Keane",
+      "Muse",
+      "OneRepublic"
+    ],
+    "explanation": "Viva La Vida: Coldplay."
+  },
+  {
+    "family": "recording-676183",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 676183,
+    "sourceUrl": "https://www.deezer.com/track/676183",
+    "audioUrl": "/api/music-preview?id=music-676183-title",
+    "excerptSeconds": 15,
+    "id": "music-676183-title",
+    "prompt": "Mikä on tämän kappaleen nimi?",
+    "options": [
+      "In the End",
+      "I Will Always Love You",
+      "Eye of the Tiger",
+      "Nemo"
+    ],
+    "explanation": "In the End — Linkin Park."
+  },
+  {
+    "family": "recording-676183",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 676183,
+    "sourceUrl": "https://www.deezer.com/track/676183",
+    "audioUrl": "/api/music-preview?id=music-676183-artist",
+    "excerptSeconds": 15,
+    "id": "music-676183-artist",
+    "prompt": "Mikä yhtye esittää tämän kappaleen?",
+    "options": [
+      "Linkin Park",
+      "Limp Bizkit",
+      "Papa Roach",
+      "Evanescence"
+    ],
+    "explanation": "In the End: Linkin Park."
+  },
+  {
+    "family": "recording-858371",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 858371,
+    "sourceUrl": "https://www.deezer.com/track/858371",
+    "audioUrl": "/api/music-preview?id=music-858371-title",
+    "excerptSeconds": 15,
+    "id": "music-858371-title",
+    "prompt": "Mikä on tämän kappaleen nimi?",
+    "options": [
+      "The Final Countdown",
+      "Nemo",
+      "In the Shadows",
+      "Join Me in Death"
+    ],
+    "explanation": "The Final Countdown — Europe."
+  },
+  {
+    "family": "recording-858371",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 858371,
+    "sourceUrl": "https://www.deezer.com/track/858371",
+    "audioUrl": "/api/music-preview?id=music-858371-artist",
+    "excerptSeconds": 15,
+    "id": "music-858371-artist",
+    "prompt": "Mikä yhtye esittää tämän kappaleen?",
+    "options": [
+      "Europe",
+      "Toto",
+      "Journey",
+      "Bon Jovi"
+    ],
+    "explanation": "The Final Countdown: Europe."
+  },
+  {
+    "family": "recording-432951302",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 432951302,
+    "sourceUrl": "https://www.deezer.com/track/432951302",
+    "audioUrl": "/api/music-preview?id=music-432951302-title",
+    "excerptSeconds": 15,
+    "id": "music-432951302-title",
+    "prompt": "Mikä on tämän kappaleen nimi?",
+    "options": [
+      "Take on Me",
+      "Join Me in Death",
+      "Sandstorm",
+      "Freestyler"
+    ],
+    "explanation": "Take on Me — A-ha."
+  },
+  {
+    "family": "recording-432951302",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 432951302,
+    "sourceUrl": "https://www.deezer.com/track/432951302",
+    "audioUrl": "/api/music-preview?id=music-432951302-artist",
+    "excerptSeconds": 15,
+    "id": "music-432951302-artist",
+    "prompt": "Mikä yhtye esittää tämän kappaleen?",
+    "options": [
+      "A-ha",
+      "Duran Duran",
+      "Depeche Mode",
+      "Pet Shop Boys"
+    ],
+    "explanation": "Take on Me: A-ha."
+  },
+  {
+    "family": "recording-4603408",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 4603408,
+    "sourceUrl": "https://www.deezer.com/track/4603408",
+    "audioUrl": "/api/music-preview?id=music-4603408-title",
+    "excerptSeconds": 15,
+    "id": "music-4603408-title",
+    "prompt": "Mikä on tämän kappaleen nimi?",
+    "options": [
+      "Billie Jean",
+      "Freestyler",
+      "Rusketusraidat",
+      "Maailman toisella puolen"
+    ],
+    "explanation": "Billie Jean — Michael Jackson."
+  },
+  {
+    "family": "recording-4603408",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 4603408,
+    "sourceUrl": "https://www.deezer.com/track/4603408",
+    "audioUrl": "/api/music-preview?id=music-4603408-artist",
+    "excerptSeconds": 15,
+    "id": "music-4603408-artist",
+    "prompt": "Kuka tässä kappaleessa laulaa?",
+    "options": [
+      "Michael Jackson",
+      "Prince",
+      "Lionel Richie",
+      "Stevie Wonder"
+    ],
+    "explanation": "Billie Jean: Michael Jackson."
+  },
+  {
+    "family": "recording-664507",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 664507,
+    "sourceUrl": "https://www.deezer.com/track/664507",
+    "audioUrl": "/api/music-preview?id=music-664507-title",
+    "excerptSeconds": 15,
+    "id": "music-664507-title",
+    "prompt": "Mikä on tämän kappaleen nimi?",
+    "options": [
+      "Like a Prayer",
+      "Maailman toisella puolen",
+      "Murheellisten laulujen maa",
+      "Autiotalo"
+    ],
+    "explanation": "Like a Prayer — Madonna."
+  },
+  {
+    "family": "recording-664507",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 664507,
+    "sourceUrl": "https://www.deezer.com/track/664507",
+    "audioUrl": "/api/music-preview?id=music-664507-artist",
+    "excerptSeconds": 15,
+    "id": "music-664507-artist",
+    "prompt": "Kuka tässä kappaleessa laulaa?",
+    "options": [
+      "Madonna",
+      "Cyndi Lauper",
+      "Whitney Houston",
+      "Cher"
+    ],
+    "explanation": "Like a Prayer: Madonna."
+  },
+  {
+    "family": "recording-8086126",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 8086126,
+    "sourceUrl": "https://www.deezer.com/track/8086126",
+    "audioUrl": "/api/music-preview?id=music-8086126-title",
+    "excerptSeconds": 15,
+    "id": "music-8086126-title",
+    "prompt": "Mikä on tämän kappaleen nimi?",
+    "options": [
+      "Rolling in the Deep",
+      "Autiotalo",
+      "Teuvo, maanteiden kuningas",
+      "Viidestoista yö"
+    ],
+    "explanation": "Rolling in the Deep — Adele."
+  },
+  {
+    "family": "recording-8086126",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 8086126,
+    "sourceUrl": "https://www.deezer.com/track/8086126",
+    "audioUrl": "/api/music-preview?id=music-8086126-artist",
+    "excerptSeconds": 15,
+    "id": "music-8086126-artist",
+    "prompt": "Kuka tässä kappaleessa laulaa?",
+    "options": [
+      "Adele",
+      "Amy Winehouse",
+      "Duffy",
+      "Sia"
+    ],
+    "explanation": "Rolling in the Deep: Adele."
+  },
+  {
+    "family": "recording-908604612",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 908604612,
+    "sourceUrl": "https://www.deezer.com/track/908604612",
+    "audioUrl": "/api/music-preview?id=music-908604612-title",
+    "excerptSeconds": 15,
+    "id": "music-908604612-title",
+    "prompt": "Mikä on tämän kappaleen nimi?",
+    "options": [
+      "Blinding Lights",
+      "Viidestoista yö",
+      "Cha Cha Cha",
+      "I’ll Be There for You"
+    ],
+    "explanation": "Blinding Lights — The Weeknd."
+  },
+  {
+    "family": "recording-908604612",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 908604612,
+    "sourceUrl": "https://www.deezer.com/track/908604612",
+    "audioUrl": "/api/music-preview?id=music-908604612-artist",
+    "excerptSeconds": 15,
+    "id": "music-908604612-artist",
+    "prompt": "Kuka tässä kappaleessa laulaa?",
+    "options": [
+      "The Weeknd",
+      "Bruno Mars",
+      "Drake",
+      "Post Malone"
+    ],
+    "explanation": "Blinding Lights: The Weeknd."
+  },
+  {
+    "family": "recording-2603558",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 2603558,
+    "sourceUrl": "https://www.deezer.com/track/2603558",
+    "audioUrl": "/api/music-preview?id=music-2603558-title",
+    "excerptSeconds": 15,
+    "id": "music-2603558-title",
+    "prompt": "Mikä on tämän kappaleen nimi?",
+    "options": [
+      "Poker Face",
+      "I’ll Be There for You",
+      "We Used to Be Friends",
+      "Don't Stop Believin'"
+    ],
+    "explanation": "Poker Face — Lady Gaga."
+  },
+  {
+    "family": "recording-2603558",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 2603558,
+    "sourceUrl": "https://www.deezer.com/track/2603558",
+    "audioUrl": "/api/music-preview?id=music-2603558-artist",
+    "excerptSeconds": 15,
+    "id": "music-2603558-artist",
+    "prompt": "Kuka tässä kappaleessa laulaa?",
+    "options": [
+      "Lady Gaga",
+      "Katy Perry",
+      "Kesha",
+      "Britney Spears"
+    ],
+    "explanation": "Poker Face: Lady Gaga."
+  },
+  {
+    "family": "recording-15391618",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 15391618,
+    "sourceUrl": "https://www.deezer.com/track/15391618",
+    "audioUrl": "/api/music-preview?id=music-15391618-title",
+    "excerptSeconds": 15,
+    "id": "music-15391618-title",
+    "prompt": "Mikä on tämän kappaleen nimi?",
+    "options": [
+      "Toxic",
+      "Don't Stop Believin'",
+      "Bohemian Rhapsody",
+      "Dancing Queen"
+    ],
+    "explanation": "Toxic — Britney Spears."
+  },
+  {
+    "family": "recording-15391618",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 15391618,
+    "sourceUrl": "https://www.deezer.com/track/15391618",
+    "audioUrl": "/api/music-preview?id=music-15391618-artist",
+    "excerptSeconds": 15,
+    "id": "music-15391618-artist",
+    "prompt": "Kuka tässä kappaleessa laulaa?",
+    "options": [
+      "Britney Spears",
+      "Christina Aguilera",
+      "Kylie Minogue",
+      "Madonna"
+    ],
+    "explanation": "Toxic: Britney Spears."
+  },
+  {
+    "family": "recording-1109731",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 1109731,
+    "sourceUrl": "https://www.deezer.com/track/1109731",
+    "audioUrl": "/api/music-preview?id=music-1109731-title",
+    "excerptSeconds": 15,
+    "id": "music-1109731-title",
+    "prompt": "Mikä on tämän kappaleen nimi?",
+    "options": [
+      "Lose Yourself",
+      "Dancing Queen",
+      "Africa",
+      "Livin’ on a Prayer"
+    ],
+    "explanation": "Lose Yourself — Eminem."
+  },
+  {
+    "family": "recording-1109731",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 1109731,
+    "sourceUrl": "https://www.deezer.com/track/1109731",
+    "audioUrl": "/api/music-preview?id=music-1109731-artist",
+    "excerptSeconds": 15,
+    "id": "music-1109731-artist",
+    "prompt": "Kuka tässä kappaleessa laulaa?",
+    "options": [
+      "Eminem",
+      "50 Cent",
+      "Jay-Z",
+      "Dr. Dre"
+    ],
+    "explanation": "Lose Yourself: Eminem."
+  },
+  {
+    "family": "recording-1109731",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 1109731,
+    "sourceUrl": "https://www.deezer.com/track/1109731",
+    "audioUrl": "/api/music-preview?id=music-1109731-context",
+    "excerptSeconds": 15,
+    "id": "music-1109731-context",
+    "prompt": "Mihin elokuvaan tämä Oscar-palkittu kappale liittyy?",
+    "options": [
+      "8 Mile",
+      "Get Rich or Die Tryin’",
+      "Straight Outta Compton",
+      "Notorious"
+    ],
+    "explanation": "Lose Yourself: 8 Mile."
+  },
+  {
+    "family": "recording-14552280",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 14552280,
+    "sourceUrl": "https://www.deezer.com/track/14552280",
+    "audioUrl": "/api/music-preview?id=music-14552280-title",
+    "excerptSeconds": 15,
+    "id": "music-14552280-title",
+    "prompt": "Mikä on tämän kappaleen nimi?",
+    "options": [
+      "My Heart Will Go On",
+      "Wonderwall",
+      "Smells Like Teen Spirit",
+      "Mr. Brightside"
+    ],
+    "explanation": "My Heart Will Go On — Celine Dion."
+  },
+  {
+    "family": "recording-14552280",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 14552280,
+    "sourceUrl": "https://www.deezer.com/track/14552280",
+    "audioUrl": "/api/music-preview?id=music-14552280-artist",
+    "excerptSeconds": 15,
+    "id": "music-14552280-artist",
+    "prompt": "Kuka tässä kappaleessa laulaa?",
+    "options": [
+      "Celine Dion",
+      "Whitney Houston",
+      "Mariah Carey",
+      "Shania Twain"
+    ],
+    "explanation": "My Heart Will Go On: Celine Dion."
+  },
+  {
+    "family": "recording-14552280",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 14552280,
+    "sourceUrl": "https://www.deezer.com/track/14552280",
+    "audioUrl": "/api/music-preview?id=music-14552280-context",
+    "excerptSeconds": 15,
+    "id": "music-14552280-context",
+    "prompt": "Minkä elokuvan tunnettu tunnuskappale tämä on?",
+    "options": [
+      "Titanic",
+      "Pearl Harbor",
+      "Armageddon",
+      "The Bodyguard"
+    ],
+    "explanation": "My Heart Will Go On: Titanic."
+  },
+  {
+    "family": "recording-7675403",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 7675403,
+    "sourceUrl": "https://www.deezer.com/track/7675403",
+    "audioUrl": "/api/music-preview?id=music-7675403-title",
+    "excerptSeconds": 15,
+    "id": "music-7675403-title",
+    "prompt": "Mikä on tämän kappaleen nimi?",
+    "options": [
+      "I Will Always Love You",
+      "Viva La Vida",
+      "In the End",
+      "The Final Countdown"
+    ],
+    "explanation": "I Will Always Love You — Whitney Houston."
+  },
+  {
+    "family": "recording-7675403",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 7675403,
+    "sourceUrl": "https://www.deezer.com/track/7675403",
+    "audioUrl": "/api/music-preview?id=music-7675403-artist",
+    "excerptSeconds": 15,
+    "id": "music-7675403-artist",
+    "prompt": "Kuka tässä kappaleessa laulaa?",
+    "options": [
+      "Whitney Houston",
+      "Celine Dion",
+      "Mariah Carey",
+      "Tina Turner"
+    ],
+    "explanation": "I Will Always Love You: Whitney Houston."
+  },
+  {
+    "family": "recording-7675403",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 7675403,
+    "sourceUrl": "https://www.deezer.com/track/7675403",
+    "audioUrl": "/api/music-preview?id=music-7675403-context",
+    "excerptSeconds": 15,
+    "id": "music-7675403-context",
+    "prompt": "Minkä elokuvan soundtrackilla tämä Whitney Houstonin versio kuullaan?",
+    "options": [
+      "The Bodyguard",
+      "Pretty Woman",
+      "Ghost",
+      "Notting Hill"
+    ],
+    "explanation": "I Will Always Love You: The Bodyguard."
+  },
+  {
+    "family": "recording-576431",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 576431,
+    "sourceUrl": "https://www.deezer.com/track/576431",
+    "audioUrl": "/api/music-preview?id=music-576431-title",
+    "excerptSeconds": 15,
+    "id": "music-576431-title",
+    "prompt": "Mikä on tämän kappaleen nimi?",
+    "options": [
+      "Eye of the Tiger",
+      "Take on Me",
+      "Billie Jean",
+      "Like a Prayer"
+    ],
+    "explanation": "Eye of the Tiger — Survivor."
+  },
+  {
+    "family": "recording-576431",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 576431,
+    "sourceUrl": "https://www.deezer.com/track/576431",
+    "audioUrl": "/api/music-preview?id=music-576431-artist",
+    "excerptSeconds": 15,
+    "id": "music-576431-artist",
+    "prompt": "Mikä yhtye esittää tämän kappaleen?",
+    "options": [
+      "Survivor",
+      "Journey",
+      "Toto",
+      "Foreigner"
+    ],
+    "explanation": "Eye of the Tiger: Survivor."
+  },
+  {
+    "family": "recording-576431",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 576431,
+    "sourceUrl": "https://www.deezer.com/track/576431",
+    "audioUrl": "/api/music-preview?id=music-576431-context",
+    "excerptSeconds": 15,
+    "id": "music-576431-context",
+    "prompt": "Mihin Rocky-elokuvaan tämä kappale tehtiin alun perin?",
+    "options": [
+      "Rocky III",
+      "Rocky",
+      "Rocky II",
+      "Rocky IV"
+    ],
+    "explanation": "Eye of the Tiger: Rocky III."
+  },
+  {
+    "family": "recording-1388825212",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 1388825212,
+    "sourceUrl": "https://www.deezer.com/track/1388825212",
+    "audioUrl": "/api/music-preview?id=music-1388825212-title",
+    "excerptSeconds": 15,
+    "id": "music-1388825212-title",
+    "prompt": "Mikä on tämän kappaleen nimi?",
+    "options": [
+      "Nemo",
+      "Rolling in the Deep",
+      "Blinding Lights",
+      "Poker Face"
+    ],
+    "explanation": "Nemo — Nightwish."
+  },
+  {
+    "family": "recording-1388825212",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 1388825212,
+    "sourceUrl": "https://www.deezer.com/track/1388825212",
+    "audioUrl": "/api/music-preview?id=music-1388825212-artist",
+    "excerptSeconds": 15,
+    "id": "music-1388825212-artist",
+    "prompt": "Mikä yhtye esittää tämän kappaleen?",
+    "options": [
+      "Nightwish",
+      "Within Temptation",
+      "Evanescence",
+      "Epica"
+    ],
+    "explanation": "Nemo: Nightwish."
+  },
+  {
+    "family": "recording-61914316",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 61914316,
+    "sourceUrl": "https://www.deezer.com/track/61914316",
+    "audioUrl": "/api/music-preview?id=music-61914316-title",
+    "excerptSeconds": 15,
+    "id": "music-61914316-title",
+    "prompt": "Mikä on tämän kappaleen nimi?",
+    "options": [
+      "In the Shadows",
+      "Poker Face",
+      "Toxic",
+      "Lose Yourself"
+    ],
+    "explanation": "In the Shadows — The Rasmus."
+  },
+  {
+    "family": "recording-61914316",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 61914316,
+    "sourceUrl": "https://www.deezer.com/track/61914316",
+    "audioUrl": "/api/music-preview?id=music-61914316-artist",
+    "excerptSeconds": 15,
+    "id": "music-61914316-artist",
+    "prompt": "Mikä yhtye esittää tämän kappaleen?",
+    "options": [
+      "The Rasmus",
+      "HIM",
+      "Sunrise Avenue",
+      "Negative"
+    ],
+    "explanation": "In the Shadows: The Rasmus."
+  },
+  {
+    "family": "recording-11390027",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 11390027,
+    "sourceUrl": "https://www.deezer.com/track/11390027",
+    "audioUrl": "/api/music-preview?id=music-11390027-title",
+    "excerptSeconds": 15,
+    "id": "music-11390027-title",
+    "prompt": "Mikä on tämän kappaleen nimi?",
+    "options": [
+      "Sandstorm",
+      "Lose Yourself",
+      "My Heart Will Go On",
+      "I Will Always Love You"
+    ],
+    "explanation": "Sandstorm — Darude."
+  },
+  {
+    "family": "recording-11390027",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 11390027,
+    "sourceUrl": "https://www.deezer.com/track/11390027",
+    "audioUrl": "/api/music-preview?id=music-11390027-artist",
+    "excerptSeconds": 15,
+    "id": "music-11390027-artist",
+    "prompt": "Kuka on tämän kappaleen esittäjä?",
+    "options": [
+      "Darude",
+      "Bomfunk MC’s",
+      "JS16",
+      "DJ Aligator"
+    ],
+    "explanation": "Sandstorm: Darude."
+  },
+  {
+    "family": "recording-5363024",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 5363024,
+    "sourceUrl": "https://www.deezer.com/track/5363024",
+    "audioUrl": "/api/music-preview?id=music-5363024-title",
+    "excerptSeconds": 15,
+    "id": "music-5363024-title",
+    "prompt": "Mikä on tämän kappaleen nimi?",
+    "options": [
+      "Freestyler",
+      "I Will Always Love You",
+      "Eye of the Tiger",
+      "Nemo"
+    ],
+    "explanation": "Freestyler — Bomfunk MC’s."
+  },
+  {
+    "family": "recording-5363024",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 5363024,
+    "sourceUrl": "https://www.deezer.com/track/5363024",
+    "audioUrl": "/api/music-preview?id=music-5363024-artist",
+    "excerptSeconds": 15,
+    "id": "music-5363024-artist",
+    "prompt": "Mikä yhtye esittää tämän kappaleen?",
+    "options": [
+      "Bomfunk MC’s",
+      "Darude",
+      "Daft Punk",
+      "The Chemical Brothers"
+    ],
+    "explanation": "Freestyler: Bomfunk MC’s."
+  },
+  {
+    "family": "recording-536845",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 536845,
+    "sourceUrl": "https://www.deezer.com/track/536845",
+    "audioUrl": "/api/music-preview?id=music-536845-title",
+    "excerptSeconds": 15,
+    "id": "music-536845-title",
+    "prompt": "Mikä on tämän kappaleen nimi?",
+    "options": [
+      "Rusketusraidat",
+      "Nemo",
+      "In the Shadows",
+      "Join Me in Death"
+    ],
+    "explanation": "Rusketusraidat — PMMP."
+  },
+  {
+    "family": "recording-536845",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 536845,
+    "sourceUrl": "https://www.deezer.com/track/536845",
+    "audioUrl": "/api/music-preview?id=music-536845-artist",
+    "excerptSeconds": 15,
+    "id": "music-536845-artist",
+    "prompt": "Mikä yhtye esittää tämän kappaleen?",
+    "options": [
+      "PMMP",
+      "Haloo Helsinki!",
+      "Indica",
+      "Tiktak"
+    ],
+    "explanation": "Rusketusraidat: PMMP."
+  },
+  {
+    "family": "recording-10280635",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 10280635,
+    "sourceUrl": "https://www.deezer.com/track/10280635",
+    "audioUrl": "/api/music-preview?id=music-10280635-title",
+    "excerptSeconds": 15,
+    "id": "music-10280635-title",
+    "prompt": "Mikä on tämän kappaleen nimi?",
+    "options": [
+      "Maailman toisella puolen",
+      "Join Me in Death",
+      "Sandstorm",
+      "Freestyler"
+    ],
+    "explanation": "Maailman toisella puolen — Haloo Helsinki!."
+  },
+  {
+    "family": "recording-10280635",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 10280635,
+    "sourceUrl": "https://www.deezer.com/track/10280635",
+    "audioUrl": "/api/music-preview?id=music-10280635-artist",
+    "excerptSeconds": 15,
+    "id": "music-10280635-artist",
+    "prompt": "Mikä yhtye esittää tämän kappaleen?",
+    "options": [
+      "Haloo Helsinki!",
+      "PMMP",
+      "Tiktak",
+      "Indica"
+    ],
+    "explanation": "Maailman toisella puolen: Haloo Helsinki!."
+  },
+  {
+    "family": "recording-3454404",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 3454404,
+    "sourceUrl": "https://www.deezer.com/track/3454404",
+    "audioUrl": "/api/music-preview?id=music-3454404-title",
+    "excerptSeconds": 15,
+    "id": "music-3454404-title",
+    "prompt": "Mikä on tämän kappaleen nimi?",
+    "options": [
+      "Murheellisten laulujen maa",
+      "Freestyler",
+      "Rusketusraidat",
+      "Maailman toisella puolen"
+    ],
+    "explanation": "Murheellisten laulujen maa — Eppu Normaali."
+  },
+  {
+    "family": "recording-3454404",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 3454404,
+    "sourceUrl": "https://www.deezer.com/track/3454404",
+    "audioUrl": "/api/music-preview?id=music-3454404-artist",
+    "excerptSeconds": 15,
+    "id": "music-3454404-artist",
+    "prompt": "Mikä yhtye esittää tämän kappaleen?",
+    "options": [
+      "Eppu Normaali",
+      "Popeda",
+      "Dingo",
+      "Yö"
+    ],
+    "explanation": "Murheellisten laulujen maa: Eppu Normaali."
+  },
+  {
+    "family": "recording-14663873",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 14663873,
+    "sourceUrl": "https://www.deezer.com/track/14663873",
+    "audioUrl": "/api/music-preview?id=music-14663873-title",
+    "excerptSeconds": 15,
+    "id": "music-14663873-title",
+    "prompt": "Mikä on tämän kappaleen nimi?",
+    "options": [
+      "Autiotalo",
+      "Maailman toisella puolen",
+      "Murheellisten laulujen maa",
+      "Teuvo, maanteiden kuningas"
+    ],
+    "explanation": "Autiotalo — Dingo."
+  },
+  {
+    "family": "recording-14663873",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 14663873,
+    "sourceUrl": "https://www.deezer.com/track/14663873",
+    "audioUrl": "/api/music-preview?id=music-14663873-artist",
+    "excerptSeconds": 15,
+    "id": "music-14663873-artist",
+    "prompt": "Mikä yhtye esittää tämän kappaleen?",
+    "options": [
+      "Dingo",
+      "Yö",
+      "Eppu Normaali",
+      "Popeda"
+    ],
+    "explanation": "Autiotalo: Dingo."
+  },
+  {
+    "family": "recording-5785361",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 5785361,
+    "sourceUrl": "https://www.deezer.com/track/5785361",
+    "audioUrl": "/api/music-preview?id=music-5785361-title",
+    "excerptSeconds": 15,
+    "id": "music-5785361-title",
+    "prompt": "Mikä on tämän kappaleen nimi?",
+    "options": [
+      "Teuvo, maanteiden kuningas",
+      "Autiotalo",
+      "Viidestoista yö",
+      "Cha Cha Cha"
+    ],
+    "explanation": "Teuvo, maanteiden kuningas — Leevi and the Leavings."
+  },
+  {
+    "family": "recording-5785361",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 5785361,
+    "sourceUrl": "https://www.deezer.com/track/5785361",
+    "audioUrl": "/api/music-preview?id=music-5785361-artist",
+    "excerptSeconds": 15,
+    "id": "music-5785361-artist",
+    "prompt": "Mikä yhtye esittää tämän kappaleen?",
+    "options": [
+      "Leevi and the Leavings",
+      "Eppu Normaali",
+      "Popeda",
+      "Dingo"
+    ],
+    "explanation": "Teuvo, maanteiden kuningas: Leevi and the Leavings."
+  },
+  {
+    "family": "recording-6974006",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 6974006,
+    "sourceUrl": "https://www.deezer.com/track/6974006",
+    "audioUrl": "/api/music-preview?id=music-6974006-title",
+    "excerptSeconds": 15,
+    "id": "music-6974006-title",
+    "prompt": "Mikä on tämän kappaleen nimi?",
+    "options": [
+      "Viidestoista yö",
+      "Cha Cha Cha",
+      "I’ll Be There for You",
+      "We Used to Be Friends"
+    ],
+    "explanation": "Viidestoista yö — Juice Leskinen."
+  },
+  {
+    "family": "recording-6974006",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 6974006,
+    "sourceUrl": "https://www.deezer.com/track/6974006",
+    "audioUrl": "/api/music-preview?id=music-6974006-artist",
+    "excerptSeconds": 15,
+    "id": "music-6974006-artist",
+    "prompt": "Kuka tässä kappaleessa laulaa?",
+    "options": [
+      "Juice Leskinen",
+      "Hector",
+      "Dave Lindholm",
+      "Gösta Sundqvist"
+    ],
+    "explanation": "Viidestoista yö: Juice Leskinen."
+  },
+  {
+    "family": "recording-2080403567",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 2080403567,
+    "sourceUrl": "https://www.deezer.com/track/2080403567",
+    "audioUrl": "/api/music-preview?id=music-2080403567-title",
+    "excerptSeconds": 15,
+    "id": "music-2080403567-title",
+    "prompt": "Mikä on tämän kappaleen nimi?",
+    "options": [
+      "Cha Cha Cha",
+      "We Used to Be Friends",
+      "Don't Stop Believin'",
+      "Bohemian Rhapsody"
+    ],
+    "explanation": "Cha Cha Cha — Käärijä."
+  },
+  {
+    "family": "recording-2080403567",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 2080403567,
+    "sourceUrl": "https://www.deezer.com/track/2080403567",
+    "audioUrl": "/api/music-preview?id=music-2080403567-artist",
+    "excerptSeconds": 15,
+    "id": "music-2080403567-artist",
+    "prompt": "Kuka on tämän kappaleen esittäjä?",
+    "options": [
+      "Käärijä",
+      "Blind Channel",
+      "Windows95man",
+      "BESS"
+    ],
+    "explanation": "Cha Cha Cha: Käärijä."
+  },
+  {
+    "family": "recording-14628816",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 14628816,
+    "sourceUrl": "https://www.deezer.com/track/14628816",
+    "audioUrl": "/api/music-preview?id=music-14628816-title",
+    "excerptSeconds": 15,
+    "id": "music-14628816-title",
+    "prompt": "Mikä on tämän kappaleen nimi?",
+    "options": [
+      "Concerning Hobbits",
+      "Hedwig’s Theme",
+      "The Imperial March",
+      "Duel of the Fates"
+    ],
+    "explanation": "Concerning Hobbits — Howard Shore."
+  },
+  {
+    "family": "recording-14628816",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 14628816,
+    "sourceUrl": "https://www.deezer.com/track/14628816",
+    "audioUrl": "/api/music-preview?id=music-14628816-artist",
+    "excerptSeconds": 15,
+    "id": "music-14628816-artist",
+    "prompt": "Kuka sävelsi tämän elokuvan tai sarjan musiikin?",
+    "options": [
+      "Howard Shore",
+      "John Williams",
+      "James Horner",
+      "Hans Zimmer"
+    ],
+    "explanation": "Concerning Hobbits: Howard Shore."
+  },
+  {
+    "family": "recording-14628816",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 14628816,
+    "sourceUrl": "https://www.deezer.com/track/14628816",
+    "audioUrl": "/api/music-preview?id=music-14628816-context",
+    "excerptSeconds": 15,
+    "id": "music-14628816-context",
+    "prompt": "Minkä elokuvan soundtrackilta tämä hobittiteema tunnetaan?",
+    "options": [
+      "Taru sormusten herrasta: Sormuksen ritarit",
+      "Hobitti: Odottamaton matka",
+      "Harry Potter ja viisasten kivi",
+      "Willow"
+    ],
+    "explanation": "Concerning Hobbits: Taru sormusten herrasta: Sormuksen ritarit."
+  },
+  {
+    "family": "recording-647248332",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 647248332,
+    "sourceUrl": "https://www.deezer.com/track/647248332",
+    "audioUrl": "/api/music-preview?id=music-647248332-artist",
+    "excerptSeconds": 15,
+    "id": "music-647248332-artist",
+    "prompt": "Kuka sävelsi tämän elokuvan tai sarjan musiikin?",
+    "options": [
+      "Howard Shore",
+      "John Williams",
+      "James Newton Howard",
+      "Danny Elfman"
+    ],
+    "explanation": "Old Friends: Howard Shore."
+  },
+  {
+    "family": "recording-647248332",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 647248332,
+    "sourceUrl": "https://www.deezer.com/track/647248332",
+    "audioUrl": "/api/music-preview?id=music-647248332-context",
+    "excerptSeconds": 15,
+    "id": "music-647248332-context",
+    "prompt": "Minkä Hobitti-elokuvan soundtrackille tämä Old Friends -teema kuuluu?",
+    "options": [
+      "Hobitti: Odottamaton matka",
+      "Hobitti: Smaugin autioittama maa",
+      "Hobitti: Viiden armeijan taistelu",
+      "Taru sormusten herrasta: Kaksi tornia"
+    ],
+    "explanation": "Old Friends: Hobitti: Odottamaton matka."
+  },
+  {
+    "family": "recording-661779",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 661779,
+    "sourceUrl": "https://www.deezer.com/track/661779",
+    "audioUrl": "/api/music-preview?id=music-661779-title",
+    "excerptSeconds": 15,
+    "id": "music-661779-title",
+    "prompt": "Mikä on tämän kappaleen nimi?",
+    "options": [
+      "Hedwig’s Theme",
+      "Old Friends",
+      "The Imperial March",
+      "Duel of the Fates"
+    ],
+    "explanation": "Hedwig’s Theme — John Williams."
+  },
+  {
+    "family": "recording-661779",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 661779,
+    "sourceUrl": "https://www.deezer.com/track/661779",
+    "audioUrl": "/api/music-preview?id=music-661779-artist",
+    "excerptSeconds": 15,
+    "id": "music-661779-artist",
+    "prompt": "Kuka sävelsi tämän elokuvan tai sarjan musiikin?",
+    "options": [
+      "John Williams",
+      "Howard Shore",
+      "Alan Silvestri",
+      "Hans Zimmer"
+    ],
+    "explanation": "Hedwig’s Theme: John Williams."
+  },
+  {
+    "family": "recording-661779",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 661779,
+    "sourceUrl": "https://www.deezer.com/track/661779",
+    "audioUrl": "/api/music-preview?id=music-661779-context",
+    "excerptSeconds": 15,
+    "id": "music-661779-context",
+    "prompt": "Missä elokuvassa tämä Harry Potter -teema kuultiin ensi kertaa?",
+    "options": [
+      "Harry Potter ja viisasten kivi",
+      "Harry Potter ja salaisuuksien kammio",
+      "Harry Potter ja Azkabanin vanki",
+      "Harry Potter ja liekehtivä pikari"
+    ],
+    "explanation": "Hedwig’s Theme: Harry Potter ja viisasten kivi."
+  },
+  {
+    "family": "recording-119058714",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 119058714,
+    "sourceUrl": "https://www.deezer.com/track/119058714",
+    "audioUrl": "/api/music-preview?id=music-119058714-title",
+    "excerptSeconds": 15,
+    "id": "music-119058714-title",
+    "prompt": "Mikä on tämän kappaleen nimi?",
+    "options": [
+      "The Imperial March",
+      "Main Title",
+      "Concerning Hobbits",
+      "Old Friends"
+    ],
+    "explanation": "The Imperial March — John Williams."
+  },
+  {
+    "family": "recording-119058714",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 119058714,
+    "sourceUrl": "https://www.deezer.com/track/119058714",
+    "audioUrl": "/api/music-preview?id=music-119058714-artist",
+    "excerptSeconds": 15,
+    "id": "music-119058714-artist",
+    "prompt": "Kuka sävelsi tämän elokuvan tai sarjan musiikin?",
+    "options": [
+      "John Williams",
+      "Howard Shore",
+      "Jerry Goldsmith",
+      "James Horner"
+    ],
+    "explanation": "The Imperial March: John Williams."
+  },
+  {
+    "family": "recording-119058714",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 119058714,
+    "sourceUrl": "https://www.deezer.com/track/119058714",
+    "audioUrl": "/api/music-preview?id=music-119058714-context",
+    "excerptSeconds": 15,
+    "id": "music-119058714-context",
+    "prompt": "Mihin Star Wars -elokuvaan Imperial March sävellettiin alun perin?",
+    "options": [
+      "Imperiumin vastaisku",
+      "Uusi toivo",
+      "Jedin paluu",
+      "Pimeä uhka"
+    ],
+    "explanation": "The Imperial March: Imperiumin vastaisku."
+  },
+  {
+    "family": "recording-123823410",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 123823410,
+    "sourceUrl": "https://www.deezer.com/track/123823410",
+    "audioUrl": "/api/music-preview?id=music-123823410-title",
+    "excerptSeconds": 15,
+    "id": "music-123823410-title",
+    "prompt": "Mikä on tämän kappaleen nimi?",
+    "options": [
+      "Duel of the Fates",
+      "Hedwig’s Theme",
+      "The Imperial March",
+      "Main Title"
+    ],
+    "explanation": "Duel of the Fates — John Williams."
+  },
+  {
+    "family": "recording-123823410",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 123823410,
+    "sourceUrl": "https://www.deezer.com/track/123823410",
+    "audioUrl": "/api/music-preview?id=music-123823410-artist",
+    "excerptSeconds": 15,
+    "id": "music-123823410-artist",
+    "prompt": "Kuka sävelsi tämän elokuvan tai sarjan musiikin?",
+    "options": [
+      "John Williams",
+      "Hans Zimmer",
+      "Danny Elfman",
+      "Alan Silvestri"
+    ],
+    "explanation": "Duel of the Fates: John Williams."
+  },
+  {
+    "family": "recording-123823410",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 123823410,
+    "sourceUrl": "https://www.deezer.com/track/123823410",
+    "audioUrl": "/api/music-preview?id=music-123823410-context",
+    "excerptSeconds": 15,
+    "id": "music-123823410-context",
+    "prompt": "Missä Star Wars -elokuvassa tämä kuoroteema kuultiin ensi kerran?",
+    "options": [
+      "Pimeä uhka",
+      "Kloonien hyökkäys",
+      "Sithin kosto",
+      "Imperiumin vastaisku"
+    ],
+    "explanation": "Duel of the Fates: Pimeä uhka."
+  },
+  {
+    "family": "recording-117729426",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 117729426,
+    "sourceUrl": "https://www.deezer.com/track/117729426",
+    "audioUrl": "/api/music-preview?id=music-117729426-artist",
+    "excerptSeconds": 15,
+    "id": "music-117729426-artist",
+    "prompt": "Kuka sävelsi tämän elokuvan tai sarjan musiikin?",
+    "options": [
+      "Ramin Djawadi",
+      "Bear McCreary",
+      "Ludwig Göransson",
+      "Hans Zimmer"
+    ],
+    "explanation": "Main Title: Ramin Djawadi."
+  },
+  {
+    "family": "recording-117729426",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 117729426,
+    "sourceUrl": "https://www.deezer.com/track/117729426",
+    "audioUrl": "/api/music-preview?id=music-117729426-context",
+    "excerptSeconds": 15,
+    "id": "music-117729426-context",
+    "prompt": "Minkä sarjan alkutunnari tämä on?",
+    "options": [
+      "Game of Thrones",
+      "The Witcher",
+      "Vikings",
+      "The Last Kingdom"
+    ],
+    "explanation": "Main Title: Game of Thrones."
+  },
+  {
+    "family": "recording-769477",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 769477,
+    "sourceUrl": "https://www.deezer.com/track/769477",
+    "audioUrl": "/api/music-preview?id=music-769477-title",
+    "excerptSeconds": 15,
+    "id": "music-769477-title",
+    "prompt": "Mikä on tämän kappaleen nimi?",
+    "options": [
+      "I’ll Be There for You",
+      "Toxic",
+      "Lose Yourself",
+      "My Heart Will Go On"
+    ],
+    "explanation": "I’ll Be There for You — The Rembrandts."
+  },
+  {
+    "family": "recording-769477",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 769477,
+    "sourceUrl": "https://www.deezer.com/track/769477",
+    "audioUrl": "/api/music-preview?id=music-769477-artist",
+    "excerptSeconds": 15,
+    "id": "music-769477-artist",
+    "prompt": "Mikä yhtye esittää tämän kappaleen?",
+    "options": [
+      "The Rembrandts",
+      "The Proclaimers",
+      "Gin Blossoms",
+      "Counting Crows"
+    ],
+    "explanation": "I’ll Be There for You: The Rembrandts."
+  },
+  {
+    "family": "recording-769477",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 769477,
+    "sourceUrl": "https://www.deezer.com/track/769477",
+    "audioUrl": "/api/music-preview?id=music-769477-context",
+    "excerptSeconds": 15,
+    "id": "music-769477-context",
+    "prompt": "Minkä komediasarjan alkutunnari tämä on?",
+    "options": [
+      "Frendit",
+      "How I Met Your Mother",
+      "Seinfeld",
+      "The Big Bang Theory"
+    ],
+    "explanation": "I’ll Be There for You: Frendit."
+  },
+  {
+    "family": "recording-2126030287",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 2126030287,
+    "sourceUrl": "https://www.deezer.com/track/2126030287",
+    "audioUrl": "/api/music-preview?id=music-2126030287-title",
+    "excerptSeconds": 15,
+    "id": "music-2126030287-title",
+    "prompt": "Mikä on tämän kappaleen nimi?",
+    "options": [
+      "We Used to Be Friends",
+      "I Will Always Love You",
+      "Eye of the Tiger",
+      "Nemo"
+    ],
+    "explanation": "We Used to Be Friends — The Dandy Warhols."
+  },
+  {
+    "family": "recording-2126030287",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 2126030287,
+    "sourceUrl": "https://www.deezer.com/track/2126030287",
+    "audioUrl": "/api/music-preview?id=music-2126030287-artist",
+    "excerptSeconds": 15,
+    "id": "music-2126030287-artist",
+    "prompt": "Mikä yhtye esittää tämän kappaleen?",
+    "options": [
+      "The Dandy Warhols",
+      "The Strokes",
+      "The Hives",
+      "The Vines"
+    ],
+    "explanation": "We Used to Be Friends: The Dandy Warhols."
+  },
+  {
+    "family": "recording-2126030287",
+    "category": "Musiikki",
+    "correct": 0,
+    "deezerId": 2126030287,
+    "sourceUrl": "https://www.deezer.com/track/2126030287",
+    "audioUrl": "/api/music-preview?id=music-2126030287-context",
+    "excerptSeconds": 15,
+    "id": "music-2126030287-context",
+    "prompt": "Minkä sarjan alkutunnari tämä kappale on?",
+    "options": [
+      "Veronica Mars",
+      "Buffy",
+      "Gilmore Girls",
+      "The O.C."
+    ],
+    "explanation": "We Used to Be Friends: Veronica Mars."
+  }
+]

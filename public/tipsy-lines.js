@@ -1,0 +1,28 @@
+export const drinkQuips=['Pohjanmaan kautta!','Ja nyt sitä keskikebardia!','Juokaa, rotat, Keravan Ketterää!','Jaimiä jäimiä!','Nyt kurkut käymään kuin halvalla eskortilla!','Noniin, spurgut, juokaa juokaa!','Huulille ja kurkusta alas, puliukko!','Nyt ei jätetä jämiä, ei jätetä!','Nyt imet sitä kaljaa niin kuin poikaystäväs vehettä!','Menee niin miehettömästi tuo olut alas, ettei taida sulla tyttöystävän kanssa ottaa eteen!','Jos muillekin, niin Tipsyllekin!','Nonii, ruskeareijän ritari, mikä kestää? Vedä vaikka persreijälle, näyttäs olevan sulle tutumpi paikka ottaa tavaraa sisään!','Siitä baariruusuille kurkun kostuketta, niin ei pääse juuret kuihtumaan!'];
+export const lines={
+ opening:['No niin, tervetuloa Tipsy drunken tietovisaan! Mä olen Tipsy. Mahtavaa että tulitte! Porukka koolla, yksi voittaja. Ja, näköjään, aivan helvetisti itseluottamusta. Toivottakaa tervetulleeksi juontajamme Noora ja vielä iso kiitos vielä ohjelman rahoittajalle Jorma-Tapiolle, ja nyt Noora!'],
+ selfDrink:['Jos muillekin, niin Tipsyllekin!'],
+ music:['Korvat auki! Tunnista biisi, esittäjä tai tuttu leffa.'],
+ basic:['Aloitetaan yleistiedolla. Sitä joko on, tai sitten selität kohta että painoit väärää nappia.'],
+ order:['Järjestys sekaisin. Laita asiat oikeaan järjestykseen. Oman elämäsi saat järjestää myöhemmin.'],
+ image:['Kuva kertoo. Nyt silmät auki. Sormi ei korvaa havainnointikykyä.'],
+ world:['Maailmanmatkaaja. Kolmesta oikeasta saat matkabonuksen. Lentokentän baarin sijainti ei valitettavasti riitä.'],
+ pie:['Piirakkasota. Nopein tietäjä saa heittää. Tässä ohjelmassa kostolla on kermavaahtokuorrutus.'],
+ steal:['Ryöstökierros. Nopein oikea vastaus antaa luvan koskea toisen pankkiin. Ystävyys oli kiva niin kauan kuin sitä kesti.'],
+ final:['No niin! Viimeinen tilaus. Nyt pankki on sun elinvoima. Nopein oikein saa viisi pistettä. Muut oikein saavat kaksi, mutta menettävät viisi. Väärästä lähtee viisi. Nollassa tulee lähtö. Viimeinen pystyssä voittaa!'],
+ sipBreak:drinkQuips.map(quip=>`Juomatauko! ${quip}`),
+ finalBreak:drinkQuips.map(quip=>`No niin, no niin! Kierros on paketissa. ${quip}`),
+ category:['Kategoriakapteeni! Eka kysymys tulee hatusta. Sen jälkeen nopein tietäjä valitsee seuraavan aiheen. Nyt saa tehdä muille kiusaa ihan tieteen nimissä.'],
+ categoryPick:['Nopein tietäjä, valitse seuraava kategoria. Ota oma vahvuutesi. Tai tee jotain aivan helvetin typerää. Sekin on ohjelmasisältöä.'],
+ wager:['Panostaja! Valitse yksi, kolme, viisi, kahdeksan tai kymmenen pistettä. Oikeasta saat panoksen verran lisää, väärästä menetät panoksen. Itsevarmuudella on nyt hintalappu.'],
+ wagerPick:['Lukitse oma panoksesi. Kysymys paljastuu vasta sen jälkeen. Jos et valitse ajoissa, panos on yksi piste.'],
+ correct:['Oikein. Saat pitää sen itsevarman ilmeen vielä hetken.','No niin. Päässä oli sittenkin muutakin kuin taustamusiikkia.','Täydellinen vastaus. Seuraavaksi yritetään saada se näyttämään tarkoitukselliselta.','Tietoa löytyi. Laitetaan se pankkiin ennen kuin kadotat sen.','Oikein! Arvasitko? Älä vastaa. Pilaisit hetken.','Hyvä vastaus. En ollut valmistautunut tähän käänteeseen.','Kas vain. Sisäinen tietosanakirja avasi oikean sivun.','Tuo oli niin oikein että minulta loppui vittuilu kesken.'],
+ wrong:['Väärin. Mutta olipa komea vauhti matkalla seinään.','Voi vittu. Neljä vaihtoehtoa, ja silti löysit tuon.','Väärä vastaus. Itseluottamuksesi tarvitsee oman faktantarkistajan.','Tuo vastaus oli rohkea. Jätetään muut adjektiivit väliin.','Nyt oli tietoa mukana yhtä paljon kuin tyhjässä ostoskorissa.','Väärin. Selitys kuulostaa varmasti paremmalta huomenna.','Tuolla vastauksella pääsee jatkoon. Väärässä ohjelmassa.','Aivot lähettivät luonnoksen. Sormi painoi julkaise.','Väärin. Onneksi tätä ei merkitä ansioluetteloon.','Pidän asenteesta. Vastaus on kyllä täysin perseellään.'],
+ mixed:['Osa tiesi, osa improvisoi. Tässä näkyy koulutuksen ja hyvän pokan ero.','Oikea vastaus on näkyvissä. Nyt on hyvä hetki väittää että tiesit sen koko ajan.','Pankit päivittyvät. Yksi hymyilee, toinen harjoittelee selitystään.','Katsokaa tulosta. Tästä saa keskustelun aikaiseksi ilman yhtäkään hyvää argumenttia.'],
+ timeout:['Aika loppui. Harkitsit niin pitkään että kysymys ehti vanheta.','Vastaus jäi matkalle. Toivottavasti sillä on navigaattori.'],
+ target:['Nopein tietäjä. Kenen pankki pannaan paskaksi?','Valitse kohde. Diplomatia on nyt poistunut rakennuksesta.'],
+ hit:['Osuma! Kosto tarjoillaan kermavaahdolla.','Piirakka löysi perille. Vastaanottaja näyttää liikuttuneelta.'],
+ robbed:['Ryöstö onnistui. Ystävyys oli kiva hetken.','Ryöstö onnistui. Tuo hymy on taloudellisesti erittäin epäilyttävä.'],
+ leaderboard:['Pankit näkyviin. Kuka tietää, kuka selittää?','Pankit näkyviin. Tässä vaiheessa häviäjä kutsuu tätä yleensä harjoituspeliksi.'],
+ finished:['Visa on ohi! Voittaja juhlii, muut selittelee.','Siinä se. Yksi voitti. Muut voivat nyt kertoa, etteivät oikeastaan edes yrittäneet.']
+};

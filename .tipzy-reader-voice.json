@@ -1,0 +1,6 @@
+{
+  "provider": "Chatterbox",
+  "voice": "Finnish-NLP/Chatterbox-Finnish",
+  "approved": true,
+  "generation": "offline-only"
+}

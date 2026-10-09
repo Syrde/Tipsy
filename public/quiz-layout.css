@@ -1,0 +1,164 @@
+/* The host is a single television screen, rather than a scrolling document. */
+body[data-screen-fit="yes"]{height:100vh;height:100dvh;min-height:0;overflow:hidden}
+body[data-screen-fit="yes"] #app{height:100%;overflow:hidden}
+body[data-screen-fit="yes"] header{position:relative;z-index:40;box-sizing:border-box;margin:0;padding:8px 2vw;gap:8px;min-width:0;flex-wrap:wrap}
+body[data-screen-fit="yes"] header .brand{font-size:clamp(23px,2.3vw,34px);white-space:nowrap}
+body[data-screen-fit="yes"] header .tools{gap:5px;flex-wrap:wrap;min-width:0}
+body[data-screen-fit="yes"] header .small{font-size:clamp(10px,1vw,13px);padding:7px 9px;white-space:nowrap}
+body[data-screen-fit="yes"] .music-volume{display:flex;font-size:10px}
+body[data-screen-fit="yes"] .music-volume input{width:50px}
+.screen-frame{position:absolute;left:0;right:0;overflow:hidden;isolation:isolate}
+.screen-content{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%) scale(var(--scene-scale,1));transform-origin:center;display:flow-root;box-sizing:border-box}
+.screen-dock{position:fixed;bottom:0;left:0;right:0;z-index:40;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:7px;margin:0;padding:8px max(10px,env(safe-area-inset-right));background:#0c1226f5;border-top:1px solid #d6ac5555;box-shadow:0 -5px 20px #0005}
+.screen-dock[hidden]{display:none}
+.screen-dock button{font-size:clamp(10px,1.2vw,16px);padding:8px 13px;min-height:34px;white-space:normal}
+body[data-screen-fit="yes"] button:focus-visible,body[data-screen-fit="yes"] select:focus-visible,body[data-screen-fit="yes"] input:focus-visible{outline:3px solid #fff;outline-offset:3px}
+
+/* Compact the actual content first; scaling is a fallback for unusual screen
+   sizes, long text, large parties and older television browsers. */
+body[data-screen-fit="yes"] .shell{max-width:none;margin:0;padding:12px 24px;min-height:0}
+body[data-screen-fit="yes"] .show-floor{padding-top:24px}
+body[data-screen-fit="yes"] .light-rig{height:12px;top:3px;border-width:1px}
+body[data-screen-fit="yes"] .light-rig i{width:10px;height:10px}
+body[data-screen-fit="yes"] .roundstrip{margin-bottom:8px}
+body[data-screen-fit="yes"] .stage{grid-template-columns:minmax(120px,18%) minmax(0,1fr);gap:18px;align-items:center}
+body[data-screen-fit="yes"] .stage>section{grid-column:2;grid-row:1;min-width:0}
+body[data-screen-fit="yes"] .stage>.host-character{display:block;grid-column:1;grid-row:1;align-self:center;margin:0;padding:0;min-width:0}
+body[data-screen-fit="yes"] .stage .tipsy{width:100%;height:auto;aspect-ratio:1;max-width:240px;margin:auto}
+body[data-screen-fit="yes"] .host-label{font-size:9px;letter-spacing:1px;margin:2px 0 8px}
+body[data-screen-fit="yes"] .speech{padding:10px;min-height:0;font-size:12px;line-height:1.35;overflow-wrap:anywhere}
+body[data-screen-fit="yes"] .question,body[data-screen-fit="yes"] .stage .question{min-height:0;padding:16px 20px;box-sizing:border-box}
+body[data-screen-fit="yes"] .question h2,body[data-screen-fit="yes"] .stage .question h2{font-size:clamp(24px,2.6vw,38px);margin:8px 0 14px;line-height:1.15;overflow-wrap:anywhere}
+body[data-screen-fit="yes"] .eyebrow{font-size:10px;letter-spacing:1.5px}
+body[data-screen-fit="yes"] .answers{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+body[data-screen-fit="yes"] .answer{min-width:0;min-height:54px;padding:9px 12px;font-size:18px;line-height:1.25;overflow-wrap:anywhere}
+body[data-screen-fit="yes"] .answer b{width:30px;height:30px;font-size:16px}
+body[data-screen-fit="yes"] .timerbar{margin-top:6px}
+body[data-screen-fit="yes"] .progress{margin-top:10px;height:6px}
+body[data-screen-fit="yes"] .countdown{width:38px;height:38px;min-height:0;border-width:2px;font-size:21px;margin:6px auto 0}
+body[data-screen-fit="yes"] .roundcard{text-align:center;padding:18px 24px}
+body[data-screen-fit="yes"] .roundcard .roundicon{font-size:42px;margin:7px}
+body[data-screen-fit="yes"] .roundcard p{margin:8px auto;line-height:1.4}
+body[data-screen-fit="yes"] .hint{margin-top:7px;font-size:11px;line-height:1.35}
+body[data-screen-fit="yes"] .resolution{padding-top:9px;font-size:13px;line-height:1.4}
+body[data-screen-fit="yes"] .resultline{margin-top:6px;font-size:13px}
+body[data-screen-fit="yes"] .locked{margin-top:6px;padding:8px;font-size:13px}
+body[data-screen-fit="yes"] .selected-order{margin:6px 0;padding:8px;line-height:1.35;font-size:12px}
+body[data-screen-fit="yes"] .actionarea{padding:10px;margin-top:8px}
+body[data-screen-fit="yes"] .art,body[data-screen-fit="yes"] .art:has(.quiz-photo){max-width:360px;margin:6px auto 10px}
+body[data-screen-fit="yes"] .quiz-photo,body[data-screen-fit="yes"] .art svg{max-height:160px}
+body[data-screen-fit="yes"] .music-sample{grid-template-columns:44px 1fr;gap:5px 12px;padding:9px;margin:8px 0}
+body[data-screen-fit="yes"] .music-sample .record-disc{width:40px;height:40px;border-width:5px;font-size:16px}
+body[data-screen-fit="yes"] .music-sample p{font-size:11px}
+body[data-screen-fit="yes"] .music-sample small{font-size:9px}
+body[data-screen-fit="yes"] .music-sample .equalizer{height:20px}
+
+/* Keep all twenty players visible. */
+body[data-screen-fit="yes"] .podiums,body[data-screen-fit="yes"] .podiums.crowd,body[data-screen-fit="yes"] .podiums.large-crowd{grid-template-columns:repeat(var(--player-columns,4),minmax(0,1fr));gap:8px;margin:12px auto 0;padding:0;max-width:none}
+body[data-screen-fit="yes"] .podium,body[data-screen-fit="yes"] .podiums.crowd .podium,body[data-screen-fit="yes"] .podiums.large-crowd .podium{min-height:0;padding:4px 7px 7px;overflow:hidden;display:grid;grid-template-columns:42px minmax(0,1fr);align-items:center;column-gap:6px;box-shadow:0 3px 0 #080e20}
+body[data-screen-fit="yes"] .podium .contestant,body[data-screen-fit="yes"] .podiums.crowd .contestant,body[data-screen-fit="yes"] .podiums.large-crowd .contestant{width:42px;height:52px;margin:0;grid-column:1;grid-row:1/4}
+body[data-screen-fit="yes"] .podium .name,body[data-screen-fit="yes"] .podiums.crowd .name{grid-column:2;margin:2px 0;font-size:12px;text-align:left}
+body[data-screen-fit="yes"] .podium .bank,body[data-screen-fit="yes"] .podiums.crowd .bank,body[data-screen-fit="yes"] .podiums.large-crowd .bank{grid-column:2;font-size:25px;text-align:left;line-height:1}
+body[data-screen-fit="yes"] .podium small{grid-column:2;font-size:8px;line-height:1.3;text-align:left}
+body[data-screen-fit="yes"] .podium .badge{position:static;grid-column:1/-1;grid-row:4;padding:2px;font-size:8px!important;text-align:right;display:block}
+body[data-screen-fit="yes"] .podium.empty{display:block}
+body[data-screen-fit="yes"] .ranklist,body[data-screen-fit="yes"] .sip-list{display:grid;grid-template-columns:repeat(var(--list-columns,2),minmax(0,1fr));max-width:none;gap:6px;margin:10px 0}
+body[data-screen-fit="yes"] .rankrow,body[data-screen-fit="yes"] .sip-row{min-width:0;gap:7px;margin:0;padding:7px 9px}
+body[data-screen-fit="yes"] .rankrow .contestant,body[data-screen-fit="yes"] .sip-row .contestant{width:30px;height:38px}
+body[data-screen-fit="yes"] .rankrow strong,body[data-screen-fit="yes"] .sip-row strong{min-width:0;font-size:13px;overflow-wrap:anywhere}
+body[data-screen-fit="yes"] .rankrow .bank,body[data-screen-fit="yes"] .sip-row>b{font-size:24px}
+body[data-screen-fit="yes"] .rankrow strong small,body[data-screen-fit="yes"] .sip-row strong small{font-size:10px!important;margin-top:3px!important}
+body[data-screen-fit="yes"] .ranknum{font-size:18px}
+body[data-screen-fit="yes"] .category-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:7px;margin:12px 0}
+body[data-screen-fit="yes"] .category-grid .answer{font-size:15px;min-height:42px;gap:8px}
+body[data-screen-fit="yes"] .bet-grid{margin:12px 0;gap:8px}
+body[data-screen-fit="yes"] .bet-option{padding:10px 7px}
+body[data-screen-fit="yes"] .bet-option strong{font-size:34px}
+body[data-screen-fit="yes"] .bet-status{gap:6px 12px}
+body[data-screen-fit="yes"] .pie-arena{grid-template-columns:repeat(var(--pie-columns,4),minmax(0,1fr));gap:7px;margin:10px 0}
+body[data-screen-fit="yes"] .pie-face{padding:6px 3px}
+body[data-screen-fit="yes"] .pie-face .contestant{width:48px;height:60px}
+body[data-screen-fit="yes"] .pie-face strong{font-size:11px;white-space:nowrap}
+body[data-screen-fit="yes"] .pie-reticle{font-size:70px;line-height:70px}
+body[data-screen-fit="yes"][data-phase="target"][data-round="pie"] .stage .question{display:none}
+
+/* Room creation and lobby also participate in the viewport fit. */
+body[data-screen-fit="yes"] .hero{grid-template-columns:minmax(0,1fr) 30%;gap:24px;min-height:0}
+body[data-screen-fit="yes"] .hero h1{font-size:62px;margin-top:4px!important}
+body[data-screen-fit="yes"] .hero p{margin:12px 0}
+body[data-screen-fit="yes"] .hero .tagline{font-size:16px}
+body[data-screen-fit="yes"] .hero>.host-character{display:block;border-radius:0}
+body[data-screen-fit="yes"] .hero .tipsy{width:220px;height:220px;max-width:100%;margin:auto}
+body[data-screen-fit="yes"] .panel{padding:16px}
+body[data-screen-fit="yes"] .setup{max-width:none}
+body[data-screen-fit="yes"] input,body[data-screen-fit="yes"] select{margin:5px 0 9px;padding:10px}
+body[data-screen-fit="yes"] .host-preview{display:block;padding:8px;margin:0;grid-column:1/-1}
+body[data-screen-fit="yes"] .footer{padding:8px;font-size:10px}
+body[data-screen-fit="yes"] .lobby{grid-template-columns:minmax(0,1fr) 260px;gap:20px}
+body[data-screen-fit="yes"] .lobby h2{font-size:36px;margin-top:8px!important}
+body[data-screen-fit="yes"] .duet-box{padding:10px 14px;margin:10px 0}
+body[data-screen-fit="yes"] .duet-box p{font-size:13px;min-height:0;line-height:1.4}
+body[data-screen-fit="yes"] .duet-box strong{font-size:15px;margin-top:5px}
+body[data-screen-fit="yes"] .joinbox .qr{width:150px;margin:10px 0!important}
+body[data-screen-fit="yes"] .joinbox p{margin:8px 0}
+body[data-screen-fit="yes"] .gesture-controls{margin-top:10px;gap:6px}
+body[data-screen-fit="yes"] .avatar-selection{margin:10px 0;padding:10px}
+body[data-screen-fit="yes"] .avatar-grid{grid-template-columns:repeat(10,minmax(0,1fr));gap:6px;margin-top:8px}
+body[data-screen-fit="yes"] .avatar-choice .contestant{width:42px;height:52px}
+body[data-screen-fit="yes"] .avatar-choice{padding:4px 2px;gap:4px}
+body[data-screen-fit="yes"] .avatar-choice span:last-child{font-size:9px}
+body[data-screen-fit="yes"] .avatar-reaction-caption{bottom:76px;max-width:min(650px,85vw);padding:8px 14px}
+
+@media(max-height:600px){
+ body[data-screen-fit="yes"] .stage .tipsy{max-width:160px}
+ body[data-screen-fit="yes"] .question h2,body[data-screen-fit="yes"] .stage .question h2{font-size:26px}
+ body[data-screen-fit="yes"] .question{padding:12px 16px}
+ body[data-screen-fit="yes"] .answer{min-height:44px;font-size:16px}
+ body[data-screen-fit="yes"] .quiz-photo,body[data-screen-fit="yes"] .art svg{max-height:110px}
+ body[data-screen-fit="yes"] .hero h1{font-size:48px}
+ body[data-screen-fit="yes"] .hero .tipsy{width:160px;height:160px}
+}
+@media(max-width:480px){
+ body[data-screen-fit="yes"] header{padding:6px 8px}
+ body[data-screen-fit="yes"] header .brand{font-size:22px}
+ body[data-screen-fit="yes"] header .small{padding:6px;font-size:10px}
+ .screen-dock{gap:4px;padding:5px}
+ .screen-dock button{padding:6px 8px;min-height:30px}
+}
+@media(max-width:650px){
+ body[data-screen-fit="yes"] .shell{padding:10px 12px}
+ body[data-screen-fit="yes"] .stage{grid-template-columns:minmax(0,1fr);gap:8px}
+ body[data-screen-fit="yes"] .stage>section{grid-column:1}
+ body[data-screen-fit="yes"] .stage>.host-character{display:none}
+ body[data-screen-fit="yes"] .hero{grid-template-columns:minmax(0,1fr);gap:8px}
+ body[data-screen-fit="yes"] .hero>.host-character{display:none}
+ body[data-screen-fit="yes"] .hero h1{font-size:45px;line-height:.95}
+ body[data-screen-fit="yes"] .hero .tagline{font-size:14px;margin:8px 0}
+ body[data-screen-fit="yes"] .question h2{font-size:23px}
+ body[data-screen-fit="yes"] .question,body[data-screen-fit="yes"] .stage .question{padding:12px}
+ body[data-screen-fit="yes"] .answer{font-size:15px;padding:8px;gap:7px}
+ body[data-screen-fit="yes"] .answer b{width:25px;height:25px;font-size:14px}
+ body[data-screen-fit="yes"] .roundstrip{gap:6px}
+ body[data-screen-fit="yes"] .roundstrip .numbers{font-size:9px}
+ body[data-screen-fit="yes"] .category-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+ body[data-screen-fit="yes"] .category-grid .answer{font-size:13px}
+ body[data-screen-fit="yes"] .lobby{grid-template-columns:minmax(0,1fr);gap:10px}
+ body[data-screen-fit="yes"] .lobby h2{font-size:26px}
+ body[data-screen-fit="yes"] .lobby h2 br{display:none}
+ body[data-screen-fit="yes"] .joinbox{display:grid;grid-template-columns:110px minmax(0,1fr);gap:6px 10px;align-items:center;padding:10px}
+ body[data-screen-fit="yes"] .joinbox .qr{width:100px;grid-column:1;grid-row:1/5;margin:0!important}
+ body[data-screen-fit="yes"] .joinbox>*{grid-column:2;margin:0}
+ body[data-screen-fit="yes"] .joinbox label{grid-column:1/-1}
+ body[data-screen-fit="yes"] .joinbox label select{margin:4px 0}
+ body[data-screen-fit="yes"] .avatar-grid{grid-template-columns:repeat(5,minmax(0,1fr))}
+ body[data-screen-fit="yes"] .podium{grid-template-columns:28px minmax(0,1fr)!important;gap:3px;padding:4px!important}
+ body[data-screen-fit="yes"] .podium .contestant{width:28px!important;height:35px!important}
+ body[data-screen-fit="yes"] .podium .name{font-size:10px!important}
+ body[data-screen-fit="yes"] .podium .bank{font-size:21px!important}
+ body[data-screen-fit="yes"] .podium small{font-size:7px!important}
+ body[data-screen-fit="yes"] .rankrow,body[data-screen-fit="yes"] .sip-row{padding:6px;gap:5px}
+ body[data-screen-fit="yes"] .rankrow .contestant,body[data-screen-fit="yes"] .sip-row .contestant{width:24px;height:30px}
+ body[data-screen-fit="yes"] .rankrow strong,body[data-screen-fit="yes"] .sip-row strong{font-size:11px}
+ body[data-screen-fit="yes"][data-phase="sipBreak"] .show-floor>.podiums{display:none}
+ body[data-screen-fit="yes"] .host-preview{padding:5px;font-size:11px}
+}

@@ -1,0 +1,171 @@
+// Käsin toimitettu kysymyspankki. Ensimmäinen vastaus on oikea; moottori sekoittaa vaihtoehdot.
+// Kaikki historialliset tulokset on sidottu nimettyyn vuoteen tai kauteen.
+export const adultGeneral=[];
+const add=(category,prefix,rows)=>rows.forEach(([prompt,answer,b,c,d,note],i)=>adultGeneral.push({
+ id:`adult-${prefix}-${i}`,family:`adult-${prefix}-${i}`,category,prompt,
+ options:[answer,b,c,d],correct:0,explanation:note||`Oikea vastaus: ${answer}.`,difficulty:'medium-hard'
+}));
+add('Musiikki','music',[
+ ['Mikä yhtye julkaisi Random Access Memories -albumin vuonna 2013?','Daft Punk','Justice','The Chemical Brothers','Disclosure'],
+ ['Kuka laulaa Daft Punkin Get Lucky -kappaleessa päälaulun?','Pharrell Williams','Bruno Mars','The Weeknd','Justin Timberlake'],
+ ['Kenen albumi on To Pimp a Butterfly (2015)?','Kendrick Lamar','J. Cole','Drake','Kanye West'],
+ ['Mikä albumi toi Beyoncéelle vuoden albumin Grammyn vuonna 2025?','Cowboy Carter','Renaissance','Lemonade','Beyoncé'],
+ ['Kuka on Billie Eilishin veli ja keskeinen tuottajakumppani?','Finneas O’Connell','Jack Antonoff','Greg Kurstin','Benny Blanco'],
+ ['Minkä elokuvan soundtrackille Billie Eilish teki What Was I Made For? -kappaleen?','Barbie','Poor Things','La La Land','A Star Is Born'],
+ ['Mikä yhtye julkaisi AM-albumin vuonna 2013?','Arctic Monkeys','The Strokes','The Killers','Franz Ferdinand'],
+ ['Minkä yhtyeen laulaja Alex Turner on AM-albumilla?','Arctic Monkeys','Muse','Kasabian','Kings of Leon'],
+ ['Mikä yhtye julkaisi Absolution-albumin vuonna 2003?','Muse','Radiohead','Placebo','Coldplay'],
+ ['Kuka lauloi Nightwishin Once-albumin päälaulut vuonna 2004?','Tarja Turunen','Anette Olzon','Floor Jansen','Sharon den Adel'],
+ ['Kuka lauloi Nightwishin Dark Passion Play -albumin päälaulut?','Anette Olzon','Tarja Turunen','Floor Jansen','Simone Simons'],
+ ['Kenen ensimmäinen Nightwish-studioalbumi laulajana oli Endless Forms Most Beautiful?','Floor Jansenin','Anette Olzonin','Tarja Turusen','Sharon den Adelin'],
+ ['Mikä on Metallican vuonna 2008 julkaisema studioalbumi?','Death Magnetic','St. Anger','Load','Hardwired… to Self-Destruct'],
+ ['Kuka tuotti Metallican Death Magnetic -albumin?','Rick Rubin','Bob Rock','Butch Vig','Mutt Lange'],
+ ['Mikä näistä Metallican albumeista ilmestyi vuonna 2023?','72 Seasons','Hardwired… to Self-Destruct','Death Magnetic','St. Anger'],
+ ['Minkä Metallica-albumin alkuperäinen julkaisuvuosi on 1986?','Master of Puppets','Ride the Lightning','…And Justice for All','Kill ’Em All'],
+ ['Kenen vuoden 2016 albumi on Lemonade?','Beyoncén','Rihannan','Alicia Keysin','Solangen'],
+ ['Mikä Taylor Swiftin albumi sisältää Blank Space -kappaleen alkuperäisversion?','1989','Red','Reputation','Lover'],
+ ['Mikä Amy Winehousen albumi sisältää Rehab-kappaleen?','Back to Black','Frank','Lioness: Hidden Treasures','Amy'],
+ ['Kenen albumi on After Hours (2020)?','The Weekndin','Draken','Post Malonen','Frank Oceanin']
+]);
+add('Urheilu','sport',[
+ ['Mikä seura voitti Stanley Cupin vuonna 2004?','Tampa Bay Lightning','Calgary Flames','Detroit Red Wings','New Jersey Devils'],
+ ['Mikä seura voitti Stanley Cupin vuonna 2006?','Carolina Hurricanes','Edmonton Oilers','Anaheim Ducks','Ottawa Senators'],
+ ['Minkä seuran riveissä Teemu Selänne voitti Stanley Cupin vuonna 2007?','Anaheim Ducksin','San Jose Sharksin','Colorado Avalanchen','Winnipeg Jetsin'],
+ ['Miksi Stanley Cup -voittajaa ei ollut vuonna 2005?','NHL-kausi peruttiin työsulun takia','Finaali jäi tasan','Pokaali varastettiin','Koko liiga lopetettiin'],
+ ['Millä tallilla Kimi Räikkönen voitti F1-maailmanmestaruuden vuonna 2007?','Ferrarilla','McLarenilla','Lotuksella','Renault’lla'],
+ ['Kuinka monella pisteellä Räikkönen voitti Hamiltonin kauden 2007 lopputuloksissa?','Yhdellä','Kahdella','Viidellä','Kymmenellä'],
+ ['Kuka voitti F1-kuljettajien maailmanmestaruuden vuonna 2009?','Jenson Button','Lewis Hamilton','Sebastian Vettel','Fernando Alonso'],
+ ['Millä tallilla Jenson Button voitti maailmanmestaruuden vuonna 2009?','Brawn GP:llä','McLarenilla','Williamsilla','Red Bullilla'],
+ ['Kuka voitti F1-maailmanmestaruuden vuonna 2016?','Nico Rosberg','Lewis Hamilton','Sebastian Vettel','Daniel Ricciardo'],
+ ['Mikä maa voitti miesten jalkapallon MM-kisat vuonna 2010?','Espanja','Alankomaat','Saksa','Italia'],
+ ['Kuka teki vuoden 2010 miesten MM-finaalin ainoan maalin?','Andrés Iniesta','Xavi','David Villa','Fernando Torres'],
+ ['Mikä maa voitti miesten jalkapallon EM-kisat vuonna 2004?','Kreikka','Portugali','Tšekki','Ranska'],
+ ['Kuka teki vuoden 2014 miesten jalkapallon MM-finaalin voittomaalin?','Mario Götze','Thomas Müller','Miroslav Klose','Mesut Özil'],
+ ['Mikä seura nousi 0–3-tappioasemasta vuoden 2005 Mestarien liigan finaalin voittoon?','Liverpool','AC Milan','Chelsea','Barcelona'],
+ ['Kuka voitti miesten Wimbledonin kaksinpelin vuonna 2013?','Andy Murray','Novak Djokovic','Roger Federer','Rafael Nadal'],
+ ['Mikä NBA-joukkue nousi finaalisarjan 1–3-tappioasemasta mestariksi vuonna 2016?','Cleveland Cavaliers','Golden State Warriors','San Antonio Spurs','Miami Heat'],
+ ['Missä olympialaisissa Michael Phelps voitti kahdeksan kultamitalia?','Pekingissä 2008','Ateenassa 2004','Lontoossa 2012','Riossa 2016'],
+ ['Kuka voitti miesten keihäänheiton olympiakullan Lontoossa 2012?','Keshorn Walcott','Julius Yego','Tero Pitkämäki','Andreas Thorkildsen'],
+ ['Kuka valmensi Suomen miesten jääkiekkomaajoukkueen MM-kultaan vuonna 1995?','Curt Lindström','Jukka Jalonen','Hannu Aravirta','Erkka Westerlund'],
+ ['Ketä vastaan Suomi voitti miesten jääkiekon MM-finaalin vuonna 2011?','Ruotsia','Venäjää','Kanadaa','Tšekkiä']
+]);
+add('Sodat ja historia','history',[
+ ['Mikä oli Saksan vuoden 1941 Neuvostoliittoon tekemän hyökkäyksen koodinimi?','Operaatio Barbarossa','Operaatio Overlord','Operaatio Market Garden','Operaatio Torch'],
+ ['Mihin Normandian maihinnousu 6.6.1944 kuului?','Operaatio Overlordiin','Operaatio Barbarossaan','Operaatio Torch’iin','Operaatio Huskyyn'],
+ ['Mihin maahan Operaatio Market Gardenin keskeiset maahanlaskut tehtiin vuonna 1944?','Alankomaihin','Belgiaan','Ranskaan','Norjaan'],
+ ['Mikä oli Saksan ilmavoimien nimi toisessa maailmansodassa?','Luftwaffe','Kriegsmarine','Reichswehr','Volkssturm'],
+ ['Mikä sopimus allekirjoitettiin Saksan kanssa ensimmäisen maailmansodan jälkeen vuonna 1919?','Versailles’n rauhansopimus','Brest-Litovskin rauha','Tilsitin rauha','Westfalenin rauha'],
+ ['Missä kaupungissa arkkiherttua Frans Ferdinand murhattiin vuonna 1914?','Sarajevossa','Belgradissa','Wienissä','Budapestissa'],
+ ['Minä päivänä länsirintaman aselepo astui voimaan vuonna 1918?','11. marraskuuta','1. syyskuuta','6. kesäkuuta','28. kesäkuuta'],
+ ['Mikä taistelu päätti Napoleonin valtakauden vuonna 1815?','Waterloo','Austerlitz','Borodino','Leipzig'],
+ ['Mihin sotaan Florence Nightingalen tunnettu sairaanhoitotyö liittyi?','Krimin sotaan','Buuri-sotaan','Ensimmäiseen maailmansotaan','Yhdysvaltain sisällissotaan'],
+ ['Mikä rauha päätti talvisodan vuonna 1940?','Moskovan rauha','Tarton rauha','Pariisin rauha','Haminan rauha'],
+ ['Mikä rauha päätti Suomen sodan vuonna 1809?','Haminan rauha','Tarton rauha','Uudenkaupungin rauha','Turun rauha'],
+ ['Minkä sodan seurauksena Suomi siirtyi Ruotsilta Venäjän yhteyteen?','Suomen sodan','Talvisodan','Isovihan','Lapin sodan'],
+ ['Keitä vastaan Suomi soti Lapin sodassa 1944–1945?','Saksalaisia joukkoja','Neuvostoliiton joukkoja','Ruotsalaisia joukkoja','Brittiläisiä joukkoja'],
+ ['Minä vuonna NATO perustettiin?','1949','1945','1955','1961'],
+ ['Minä vuonna Varsovan liitto perustettiin?','1955','1949','1961','1968'],
+ ['Mikä kriisi toi Yhdysvallat ja Neuvostoliiton ydinsodan partaalle vuonna 1962?','Kuuban ohjuskriisi','Suezin kriisi','Berliinin saarto','Prahan kevät'],
+ ['Minä vuonna Korean sota alkoi?','1950','1945','1953','1960'],
+ ['Mitä kaupunkia Etelä-Vietnamin pääkaupunki Saigon nimettiin sodan jälkeen?','Ho Chi Minh Cityksi','Hanoiksi','Da Nangiksi','Hueksi'],
+ ['Mikä maa miehitti Kuwaitin vuonna 1990?','Irak','Iran','Saudi-Arabia','Syyria'],
+ ['Mikä tapahtuma tunnetaan Prahan keväänä?','Tšekkoslovakian uudistuskausi vuonna 1968','Unkarin kansannousu vuonna 1956','Berliinin muurin murtuminen vuonna 1989','Puolan sotatila vuonna 1981']
+]);
+add('2000-luku','modern',[
+ ['Mikä pankki ajautui konkurssiin syyskuussa 2008 ja kärjisti finanssikriisiä?','Lehman Brothers','Goldman Sachs','JPMorgan Chase','Deutsche Bank'],
+ ['Mikä maa järjesti Brexit-kansanäänestyksen vuonna 2016?','Yhdistynyt kuningaskunta','Irlanti','Tanska','Norja'],
+ ['Minä vuonna eurosetelit ja -kolikot otettiin käyttöön Suomessa?','2002','1999','2000','2004'],
+ ['Mikä maa liittyi Euroopan unioniin vuonna 2013?','Kroatia','Romania','Bulgaria','Slovenia'],
+ ['Minkä maan jasmiinivallankumous käynnisti arabikevään?','Tunisian','Egyptin','Libyan','Syyrian'],
+ ['Missä kaupungissa vuoden 2015 ilmastosopimus hyväksyttiin?','Pariisissa','Kiotossa','Kööpenhaminassa','Glasgow’ssa'],
+ ['Mikä oli vuonna 2011 perustetun Snapchatin alkuperäinen nimi?','Picaboo','Snapster','Ghostchat','Blink'],
+ ['Mikä yritys osti Instagramin vuonna 2012?','Facebook','Google','Microsoft','Twitter'],
+ ['Mikä yritys osti YouTuben vuonna 2006?','Google','Yahoo','Microsoft','Facebook'],
+ ['Mikä nimimerkki julkaisi Bitcoinin white paperin vuonna 2008?','Satoshi Nakamoto','Vitalik Buterin','Hal Finney','Nick Szabo'],
+ ['Mikä peli julkaistiin mobiililaitteille vuonna 2016 ja sai pelaajat etsimään hahmoja ulkona?','Pokémon GO','Ingress Prime','Harry Potter: Wizards Unite','Minecraft Earth'],
+ ['Mikä Mars-mönkijä laskeutui vuonna 2012?','Curiosity','Perseverance','Opportunity','Spirit'],
+ ['Mikä luotain ohitti Pluton vuonna 2015?','New Horizons','Voyager 2','Cassini','Juno'],
+ ['Minä vuonna James Webb -avaruusteleskooppi laukaistiin?','2021','2018','2020','2022'],
+ ['Minkä hiukkasen löytämisestä CERN ilmoitti vuonna 2012?','Higgsin bosonin','Gravitonin','Elektronin','Neutriinon'],
+ ['Minkä maan ydinvoimala kärsi vakavan onnettomuuden vuonna 2011?','Japanin','Ukrainan','Ranskan','Etelä-Korean'],
+ ['Kuka sai Nobelin rauhanpalkinnon yhdessä Kailash Satyarthin kanssa vuonna 2014?','Malala Yousafzai','Greta Thunberg','Nadia Murad','Shirin Ebadi'],
+ ['Mikä Islannin tulivuori häiritsi Euroopan lentoliikennettä vuonna 2010?','Eyjafjallajökull','Hekla','Katla','Grímsvötn'],
+ ['Minä vuonna ensimmäinen iPhone julkistettiin?','2007','2005','2008','2010'],
+ ['Mikä maa liittyi NATOon 4.4.2023?','Suomi','Ruotsi','Ukraina','Georgia']
+]);
+add('Sarjat','tv',[
+ ['Mikä on Walter Whiten rikollinen peitenimi Breaking Badissa?','Heisenberg','Eisenberg','Oppenheimer','Schrödinger'],
+ ['Missä Yhdysvaltain kaupungissa Breaking Bad pääosin tapahtuu?','Albuquerquessa','El Pasossa','Phoenixissa','Tucsonissa'],
+ ['Mikä on Saul Goodmanin syntymänimi Better Call Saulissa?','Jimmy McGill','Chuck McGill','Howard Hamlin','Mike Ehrmantraut'],
+ ['Kuka esittää Jesse Pinkmania Breaking Badissa?','Aaron Paul','Jesse Plemons','Bob Odenkirk','Giancarlo Esposito'],
+ ['Mikä on Royn perheen mediakonsernin nimi Successionissa?','Waystar Royco','Pierce Global Media','Vaulter','GoJo'],
+ ['Kuka esittää Logan Royta Successionissa?','Brian Cox','Jeremy Strong','Alan Ruck','Matthew Macfadyen'],
+ ['Mikä kaupunki on The Wire -sarjan keskeinen tapahtumapaikka?','Baltimore','Detroit','Chicago','Philadelphia'],
+ ['Mikä on Stranger Thingsin fiktiivisen kotikaupungin nimi?','Hawkins','Derry','Riverdale','Sunnydale'],
+ ['Kenen Metallica-kappaleen Eddie soittaa Stranger Thingsin neljännellä kaudella?','Master of Puppetsin','Enter Sandmanin','Onen','Nothing Else Mattersin'],
+ ['Mikä on Gi-hunin pelaajanumero Squid Gamen ensimmäisellä kaudella?','456','001','067','218'],
+ ['Kuka esittää Profesoria alkuperäisessä La casa de papel -sarjassa?','Álvaro Morte','Pedro Alonso','Jaime Lorente','Miguel Herrán'],
+ ['Kuka on Denverin isä La casa de papelissa?','Moskova','Berliini','Helsinki','Oslo'],
+ ['Mikä on The Bear -sarjan päähenkilö Carmen Berzatton lempinimi?','Carmy','Richie','Fak','Mikey'],
+ ['Kuka esittää ensimmäisen kauden True Detectivessä Rust Cohlea?','Matthew McConaughey','Woody Harrelson','Colin Farrell','Mahershala Ali'],
+ ['Mikä on Michael Scottin johtaman Dunder Mifflin -konttorin kaupunki The Officessa?','Scranton','Stamford','Nashua','Utica'],
+ ['Mikä on Mad Menin Don Draperin alkuperäinen nimi?','Dick Whitman','Roger Sterling','Pete Campbell','Bert Cooper'],
+ ['Mikä on Game of Thronesin Lannister-suvun virallinen motto?','Kuule minun karjuntani','Talvi tulee','Me emme kylvä','Tuli ja veri','Lannisterin tunnettu velkalause on sanonta; suvun virallinen motto on Hear Me Roar.'],
+ ['Mikä Birminghamissa tapahtuva rikossarja seuraa Shelbyn perhettä?','Peaky Blinders','Gangs of London','Top Boy','Boardwalk Empire'],
+ ['Mikä fiktiivinen saksalaiskaupunki on Dark-sarjan tapahtumapaikka?','Winden','Windenburg','Waldheim','Linden'],
+ ['Mikä on Netflixin Narcosin ensimmäisten kahden kauden keskeinen kartelli?','Medellínin kartelli','Calin kartelli','Sinaloan kartelli','Juárezin kartelli']
+]);
+add('Elokuvat','film',[
+ ['Kuka ohjasi Parasite-elokuvan?','Bong Joon-ho','Park Chan-wook','Lee Chang-dong','Kim Ki-duk'],
+ ['Mistä maasta Parasite on?','Etelä-Koreasta','Japanista','Taiwanista','Kiinasta'],
+ ['Kuka voitti parhaan miespääosan Oscarin Jokerista vuonna 2020?','Joaquin Phoenix','Heath Ledger','Jared Leto','Jack Nicholson'],
+ ['Kuka sävelsi Jokerin (2019) Oscar-palkitun musiikin?','Hildur Guðnadóttir','Hans Zimmer','Jóhann Jóhannsson','Trent Reznor'],
+ ['Kuka voitti parhaan miessivuosan Oscarin elokuvasta Once Upon a Time… in Hollywood?','Brad Pitt','Leonardo DiCaprio','Al Pacino','Joe Pesci'],
+ ['Kuka ohjasi Oppenheimerin?','Christopher Nolan','Denis Villeneuve','Steven Spielberg','David Fincher'],
+ ['Kuka näytteli Oppenheimerin nimiroolin?','Cillian Murphy','Robert Downey Jr.','Matt Damon','Josh Hartnett'],
+ ['Kuka sai vuoden 2024 naispääosan Oscarin Poor Things -elokuvasta?','Emma Stone','Lily Gladstone','Sandra Hüller','Carey Mulligan'],
+ ['Kuka ohjasi vuoden 2023 Barbie-elokuvan?','Greta Gerwig','Sofia Coppola','Emerald Fennell','Chloé Zhao'],
+ ['Kuka käsikirjoitti The Social Networkin?','Aaron Sorkin','David Fincher','Charlie Kaufman','Adam McKay'],
+ ['Ketkä sävelsivät The Social Networkin Oscar-palkitun musiikin?','Trent Reznor ja Atticus Ross','Hans Zimmer ja James Newton Howard','Daft Punk','John Williams ja Alan Silvestri'],
+ ['Mikä elokuva voitti parhaan elokuvan Oscarin vuoden 2011 gaalassa?','Kuninkaan puhe','The Social Network','Inception','Black Swan'],
+ ['Kuka voitti vuoden 2011 naispääosan Oscarin Black Swanista?','Natalie Portman','Mila Kunis','Annette Bening','Michelle Williams'],
+ ['Kuka ohjasi Kuninkaan puheen?','Tom Hooper','Joe Wright','Sam Mendes','Stephen Frears'],
+ ['Mikä Taru sormusten herrasta -elokuva voitti 11 Oscaria vuonna 2004?','Kuninkaan paluu','Kaksi tornia','Sormuksen ritarit','Kaikki kolme yhdessä'],
+ ['Kuka ohjasi Lost in Translationin?','Sofia Coppola','Francis Ford Coppola','Wes Anderson','Richard Linklater'],
+ ['Kuka voitti vuoden 2004 miespääosan Oscarin Mystic Riveristä?','Sean Penn','Tim Robbins','Johnny Depp','Bill Murray'],
+ ['Kuka voitti vuoden 2004 naispääosan Oscarin Monsterista?','Charlize Theron','Naomi Watts','Diane Keaton','Samantha Morton'],
+ ['Kuka ohjasi Finding Nemon eli Nemoa etsimässä -elokuvan Andrew Stantonin rinnalla yhteisohjaajana?','Lee Unkrich','Pete Docter','Brad Bird','John Lasseter'],
+ ['Kuka sävelsi Kuninkaan paluun Oscar-palkitun musiikin?','Howard Shore','Hans Zimmer','John Williams','James Horner']
+]);
+add('Drinkit','drink',[
+ ['Mikä alkoholi on klassisen Mojiton pohjana?','Valkoinen rommi','Vodka','Gin','Tequila'],
+ ['Mikä yrtti kuuluu klassiseen Mojitoon?','Minttu','Basilika','Rosmariini','Timjami'],
+ ['Mikä alkoholi on Margaritan pohjana?','Tequila','Vodka','Rommi','Gin'],
+ ['Mikä liköörityyppi kuuluu IBA:n klassiseen Margaritaan?','Triple sec','Kahvilikööri','Mantelilikööri','Persikkalikööri'],
+ ['Mikä kolmikko muodostaa klassisen Negronin?','Gin, Campari ja makea punainen vermutti','Vodka, Aperol ja prosecco','Rommi, Campari ja limemehu','Gin, kuiva vermutti ja tonic'],
+ ['Mikä on Negronin kolmen alkoholia sisältävän ainesosan IBA-suhde?','1:1:1','2:1:1','3:2:1','4:1:1'],
+ ['Mikä alkoholi on Caipirinhan pohjana?','Cachaça','Tequila','Pisco','Vodka'],
+ ['Mihin alkoholiin cachaça vaihdetaan Caipiroskassa?','Vodkaan','Giniin','Brandyyn','Tequilaan'],
+ ['Mikä alkoholi on Moscow Mulen pohjana?','Vodka','Rommi','Gin','Bourbon'],
+ ['Mikä mikseri kuuluu Moscow Muleen?','Ginger beer','Tonic-vesi','Cola','Greippilimonadi'],
+ ['Mikä alkoholi on Espresso Martinin pohjana IBA-reseptissä?','Vodka','Gin','Brandy','Tequila'],
+ ['Mikä likööri kuuluu IBA:n Espresso Martiniin?','Kahlúa','Amaretto','Baileys','Cointreau'],
+ ['Millä IBA:n Espresso Martini koristellaan?','Kolmella kahvipavulla','Appelsiininkuorella','Oliivilla','Kanelitangolla'],
+ ['Mikä sitrusmehu kuuluu klassiseen Whiskey Souriin?','Sitruunamehu','Limemehu','Greippimehu','Appelsiinimehu'],
+ ['Mitä Whiskey Souriin voidaan lisätä vaahdon muodostamiseksi?','Kananmunan valkuaista','Kermaa','Kookosmaitoa','Maitoa'],
+ ['Mikä bitter kuuluu klassiseen Old Fashionediin?','Angostura','Campari','Aperol','Fernet-Branca'],
+ ['Mikä vermutti kuuluu klassiseen Manhattaniin?','Makea punainen vermutti','Kuiva valkoinen vermutti','Bianco-vermutti','Vermutti ei kuulu siihen'],
+ ['Mikä viskityyppi on IBA:n Manhattan-reseptin pohjana?','Ruisviski','Skotlantilainen single malt','Irlantilainen viski','Japanilainen viski'],
+ ['Mikä kolmikko muodostaa klassisen Daiquirin?','Rommi, lime ja sokeri','Tequila, sitruuna ja suola','Vodka, karpalo ja appelsiini','Gin, vermutti ja oliivi'],
+ ['Mitkä kaksi mehu- tai kerma-ainesta kuuluvat Piña Coladaan rommin lisäksi?','Ananasmehu ja kookoskerma','Appelsiinimehu ja kuohukerma','Mangomehu ja maito','Greippimehu ja kookosvesi'],
+ ['Mikä alkoholi on klassisen Bloody Maryn pohjana?','Vodka','Gin','Tequila','Brandy'],
+ ['Mikä mehu kuuluu Bloody Maryyn?','Tomaattimehu','Karpalomehu','Punajuurimehu','Appelsiinimehu'],
+ ['Mikä näistä EI kuulu IBA:n Negronin kolmeen alkoholipohjaiseen ainesosaan?','Prosecco','Gin','Campari','Makea punainen vermutti'],
+ ['Mikä sitrushedelmä kuuluu IBA:n Caipirinhaan?','Lime','Sitruuna','Appelsiini','Greippi']
+]);
+// Buzz-style editorial calibration: mostly medium questions, some accessible and some harder.
+const easy=new Set(['music-0','music-17','sport-4','sport-9','sport-19','history-3','history-12','modern-1','modern-2','modern-15','modern-19','tv-0','tv-3','tv-7','film-0','film-5','film-6','film-14','drink-0','drink-2','drink-20','drink-21']);
+const hard=new Set(['music-13','music-15','sport-5','sport-17','history-2','history-8','history-10','history-14','modern-6','modern-16','modern-17','tv-5','tv-15','tv-16','film-3','film-10','film-13','film-18','drink-5','drink-7','drink-17']);
+for(const q of adultGeneral){const key=q.id.slice(6);q.difficulty=easy.has(key)?'easy':hard.has(key)?'hard':'medium';}
+const nemo=adultGeneral.find(q=>q.id==='adult-film-18');
+Object.assign(nemo,{id:'adult-film-18-v2',prompt:'Mikä elokuva voitti parhaan animaatioelokuvan Oscarin vuoden 2004 gaalassa?',options:['Nemoa etsimässä','Karhuveljeni Koda','Bellevillen kolmoset','Henkien kätkemä'],explanation:'Nemoa etsimässä voitti animaatioelokuvan Oscarin vuonna 2004.',difficulty:'medium'});
