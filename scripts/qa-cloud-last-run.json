@@ -1,0 +1,171 @@
+{
+  "checkedAt": "2026-10-09T12:53:57.331Z",
+  "gameCommit": "508eb431b1ae058f892defc21ba7807a805b94f0",
+  "url": "https://tipsy-drunken-visa.onrender.com",
+  "pass": true,
+  "games": [
+    {
+      "players": 20,
+      "questions": 60,
+      "normalQuestions": 49,
+      "musicQuestions": 8,
+      "finalQuestions": 11,
+      "scoreChecks": 1111,
+      "sipChecks": 1725,
+      "reactionChecks": 177,
+      "reconnects": 0,
+      "duplicates": 9,
+      "emotes": 20,
+      "ackMs": {
+        "p50": 288.04979999997886,
+        "p95": 577.6456999999937,
+        "max": 742.0427999999374
+      },
+      "startedAt": "2026-10-09T11:44:33.946Z",
+      "finishedAt": "2026-10-09T12:00:58.595Z",
+      "errors": 0
+    },
+    {
+      "players": 18,
+      "questions": 60,
+      "normalQuestions": 49,
+      "musicQuestions": 8,
+      "finalQuestions": 11,
+      "scoreChecks": 1001,
+      "sipChecks": 1552,
+      "reactionChecks": 1001,
+      "reconnects": 3,
+      "duplicates": 9,
+      "emotes": 18,
+      "ackMs": {
+        "p50": 272.5242000000435,
+        "p95": 704.5032999999821,
+        "max": 800.9185999999754
+      },
+      "startedAt": "2026-10-09T11:43:35.810Z",
+      "finishedAt": "2026-10-09T12:35:24.720Z",
+      "errors": 0
+    },
+    {
+      "players": 16,
+      "questions": 60,
+      "normalQuestions": 49,
+      "musicQuestions": 8,
+      "finalQuestions": 11,
+      "scoreChecks": 888,
+      "sipChecks": 1378,
+      "reactionChecks": 150,
+      "reconnects": 1,
+      "duplicates": 9,
+      "emotes": 16,
+      "ackMs": {
+        "p50": 259.68599999998696,
+        "p95": 575.1340999999084,
+        "max": 757.0250000000233
+      },
+      "startedAt": "2026-10-09T11:54:44.467Z",
+      "finishedAt": "2026-10-09T12:12:43.110Z",
+      "errors": 0
+    },
+    {
+      "players": 14,
+      "questions": 59,
+      "normalQuestions": 49,
+      "musicQuestions": 8,
+      "finalQuestions": 10,
+      "scoreChecks": 778,
+      "sipChecks": 1204,
+      "reactionChecks": 118,
+      "reconnects": 0,
+      "duplicates": 9,
+      "emotes": 14,
+      "ackMs": {
+        "p50": 261.9096000000136,
+        "p95": 483.78330000001006,
+        "max": 961.7051999999676
+      },
+      "startedAt": "2026-10-09T12:00:36.963Z",
+      "finishedAt": "2026-10-09T12:16:30.315Z",
+      "errors": 0
+    },
+    {
+      "players": 12,
+      "questions": 60,
+      "normalQuestions": 49,
+      "musicQuestions": 8,
+      "finalQuestions": 11,
+      "scoreChecks": 670,
+      "sipChecks": 1040,
+      "reactionChecks": 135,
+      "reconnects": 3,
+      "duplicates": 9,
+      "emotes": 12,
+      "ackMs": {
+        "p50": 278.4144999999553,
+        "p95": 481.25990000000456,
+        "max": 832.2617999999784
+      },
+      "startedAt": "2026-10-09T12:26:16.746Z",
+      "finishedAt": "2026-10-09T12:45:37.206Z",
+      "errors": 0
+    }
+  ],
+  "totals": {
+    "questions": 299,
+    "scoreChecks": 4448,
+    "sipChecks": 6899,
+    "errors": 0
+  },
+  "ackMs": {
+    "p50": 272.1095000000205,
+    "p95": 578.0063999999547,
+    "max": 961.7051999999676
+  },
+  "automaticGame": {
+    "players": 18,
+    "advanceClicksAfterStart": 0,
+    "minutes": 51.81516666666667
+  },
+  "assets": {
+    "audioFiles": 2626,
+    "readerQuestions": 2550,
+    "avatars": 20,
+    "avatarRecordings": 80,
+    "musicRecordings": 41
+  },
+  "recovery": {
+    "checkedAt": "2026-10-09T12:49:37.319Z",
+    "restored": {
+      "host": {
+        "bank": 24,
+        "pause": "Jatka peliä",
+        "phase": "question",
+        "prompt": "Järjestä Grand Theft Auto -pelit ensimmäisen julkaisun mukaan uusimmasta vanhimpaan.",
+        "restored": true,
+        "stats": "0 oikein · 6 hörppyä kertynyt",
+        "title": "Järjestys sekaisin · Pelit · 4/4"
+      },
+      "phone": {
+        "locked": "Palvelimelle lukittu: GTA V → GTA IV → GTA: San Andreas → GTA: Vice City"
+      }
+    },
+    "readerPlaying": true,
+    "tipsyPlaying": true,
+    "phoneReaction": true,
+    "bankAfter": 26,
+    "statsAfter": "1 oikein · 6 hörppyä kertynyt",
+    "pass": true,
+    "phoneBankAfter": 26,
+    "resultStats": "1 oikein · 3 väärin",
+    "tvReactionObserved": false,
+    "notes": [
+      "The result advanced to the finished view; final bank read from the visible rankings. The brief recovery playback observer captured Noora, Tipsy and phone reaction; TV reactions were separately observed in the full automatic game."
+    ]
+  },
+  "scope": "Real Render service and browser host screens; phone connections simulated over WebSocket from one computer. Separate real browser controller UI exercised all avatar voice previews and locked ordering answer. No 20 physical phones or Wi-Fi router test.",
+  "notes": [
+    "12-player trial repeated after replacing an exact 15000 ms assertion with a 10 ms timestamp tolerance; initial 14999 ms result was not a gameplay failure.",
+    "Live deployment while another instance writes the same rooms can cause a database revision conflict; pause games before deploying. Old deployment stayed live until the paused-room deployment succeeded.",
+    "Dynamic spoken player names require cloud-compatible speech generation; prerecorded Tipsy/Noora/character clips work, personalized drink instructions remain visible as text."
+  ]
+}

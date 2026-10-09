@@ -1,0 +1,10 @@
+import {readFile,writeFile,mkdir} from 'node:fs/promises';
+import {createHash} from 'node:crypto';
+const base='https://tipsy-drunken-visa.onrender.com',manifest=await fetch(base+'/audio/manifest.json').then(r=>r.json());
+const all=new Set();function collect(v){if(typeof v==='string'&&/^\/audio\/.+\.(mp3|wav)$/.test(v))all.add(v);else if(v&&typeof v==='object')Object.values(v).forEach(collect);}collect(manifest);
+const avatars=Object.values(manifest.avatars).flatMap(a=>[...a.success,...a.failure].map(c=>c.url));
+const errors=[],hashChecks=[];let done=0,total=all.size;const queue=[...all];
+await mkdir('.local-tools/qa-cloud',{recursive:true});
+await Promise.all(Array.from({length:8},async()=>{while(queue.length){const url=queue.shift();try{const response=await fetch(base+url,{method:'HEAD',signal:AbortSignal.timeout(15000)});if(response.status!==200||!response.headers.get('content-type')?.startsWith('audio/'))errors.push({url,status:response.status,type:response.headers.get('content-type')});}catch(e){errors.push({url,error:e.message});}done++;if(done%300===0)console.log(JSON.stringify({checked:done,total,errors:errors.length}));}}));
+const aq=[...avatars];await Promise.all(Array.from({length:4},async()=>{while(aq.length){const url=aq.shift();try{const r=await fetch(base+url,{signal:AbortSignal.timeout(15000)}),remote=Buffer.from(await r.arrayBuffer()),local=await readFile('public'+url),hash=b=>createHash('sha256').update(b).digest('hex'),same=r.ok&&hash(remote)===hash(local);hashChecks.push({url,bytes:remote.length,same});if(!same)errors.push({url,error:'Remote voice differs from checked local recording'});}catch(e){errors.push({url,error:e.message});}}}));
+const report={base,checkedAt:new Date().toISOString(),readerQuestions:Object.keys(manifest.readerQuestions).length,avatars:Object.keys(manifest.avatars).length,files:total,avatarHashes:hashChecks,errors,pass:errors.length===0};await writeFile('.local-tools/qa-cloud/audio.json',JSON.stringify(report,null,2));console.log(JSON.stringify({...report,avatarHashes:hashChecks.length}));process.exitCode=errors.length?1:0;
