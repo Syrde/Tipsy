@@ -13,6 +13,7 @@ import {createRoomStore,createCheckpointWriter,packRoom} from './quiz-room-store
 import {voiceText,voiceClip} from './quiz-voice.mjs';
 import {readerClip,warmReader} from './quiz-reader.mjs';
 import {musicQuestions} from './quiz-music-questions.mjs';
+import {resolveMusicPreview} from './quiz-music-preview.mjs';
 import {general,ordering,images,geography} from './quiz-questions.mjs';
 import {topics,topicOf} from './quiz-topics.mjs';
 const questionBank=[...new Map([...general,...ordering,...images,...geography,...musicQuestions].map(q=>[q.id,q])).values()];
@@ -61,9 +62,9 @@ const server=http.createServer(async(req,res)=>{try{
   const q=musicQuestions.find(q=>q.id===url.searchParams.get('id'));if(!q)return json(res,{error:'Tuntematon näyte'},404);
   let cached=previewCache.get(q.deezerId);
   if(!cached||cached.until<Date.now()){
-   const response=await fetch(`https://api.deezer.com/track/${q.deezerId}`,{signal:AbortSignal.timeout(8000)}),data=await response.json();
-   if(!data.preview||!/^https:\/\/[^/]*\.dzcdn\.net\//.test(data.preview))return json(res,{error:'Näyte ei ole saatavilla'},503);
-   cached={url:data.preview,until:Date.now()+5*60*1000};previewCache.set(q.deezerId,cached);
+   const preview=await resolveMusicPreview(q);
+   if(!preview)return json(res,{error:'Näyte ei ole saatavilla'},503);
+   cached={url:preview,until:Date.now()+5*60*1000};previewCache.set(q.deezerId,cached);
   }
   res.writeHead(302,{'Location':cached.url,'Cache-Control':'no-store'});return res.end();
  }

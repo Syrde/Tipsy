@@ -1,0 +1,12 @@
+import assert from 'node:assert/strict';
+import {resolveMusicPreview} from '../quiz-music-preview.mjs';
+const url='https://cdnt-preview.dzcdn.net/example.mp3';
+let calls=[];
+const fake=values=>async endpoint=>{calls.push(endpoint);const value=values.shift();if(value instanceof Error)throw value;return {ok:true,json:async()=>value};};
+assert.equal(await resolveMusicPreview({deezerId:1},fake([{preview:url}])),url);
+calls=[];
+assert.equal(await resolveMusicPreview({deezerId:1,previewFallbackIds:[2]},fake([{}, {preview:url}])),url);
+assert.deepEqual(calls.map(x=>x.split('/').at(-1)),['1','2']);
+assert.equal(await resolveMusicPreview({deezerId:1},fake([new Error('temporary'),{preview:url}])),url);
+assert.equal(await resolveMusicPreview({deezerId:1},fake([{preview:'https://untrusted.invalid/file.mp3'},{}])),null);
+console.log('PASS: primary, curated fallback, transient retry, rejected foreign URL');
